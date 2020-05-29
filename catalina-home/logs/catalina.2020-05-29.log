@@ -1,0 +1,718 @@
+29-May-2020 08:10:07.023 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.x-dev
+29-May-2020 08:10:07.040 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        unknown
+29-May-2020 08:10:07.040 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.x
+29-May-2020 08:10:07.040 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 7
+29-May-2020 08:10:07.040 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           6.1
+29-May-2020 08:10:07.040 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+29-May-2020 08:10:07.041 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     D:\java\jre
+29-May-2020 08:10:07.041 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_221-b11
+29-May-2020 08:10:07.041 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+29-May-2020 08:10:07.041 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\ysstech\workspace_tomcat\code\catalina-home
+29-May-2020 08:10:07.041 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\ysstech\workspace_tomcat\code\catalina-home
+29-May-2020 08:10:07.043 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=catalina-home
+29-May-2020 08:10:07.043 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=catalina-home
+29-May-2020 08:10:07.044 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.endorsed.dirs=catalina-home/endorsed
+29-May-2020 08:10:07.044 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=catalina-home/temp
+29-May-2020 08:10:07.044 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-May-2020 08:10:07.044 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=catalina-home/conf/logging.properties
+29-May-2020 08:10:07.044 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dfile.encoding=UTF-8
+29-May-2020 08:10:07.044 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-javaagent:D:\ysstech\soft\idea\IntelliJ IDEA 2019.1.3\lib\idea_rt.jar=62312:D:\ysstech\soft\idea\IntelliJ IDEA 2019.1.3\bin
+29-May-2020 08:10:07.045 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[D:\java\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\ysstech\soft\oracle\oracle11\product\11.2.0\dbhome_1\bin;D:\ysstech\soft\oracle\oracle\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\UCRT\;C:\Program Files\Intel\UCRT\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Python\Python36-32\Scripts;D:\Python\xuexi\chromedriver.exe;D:\ysstech\soft\git\bin;C:\Program Files\Git\cmd;D:\ysstech\soft\redis\;D:\ysstech\soft\maven\apache-maven-3.6.1\bin;D:\ysstech\soft\vscode\Microsoft VS Codebin;D:\ysstech\soft\mysql\mysql-5.7.22-winx64\bin;D:\ysstech\soft\vscode\Microsoft VS Code\bin;D:\ysstech\soft\erlang\erl10.4\bin;D:\ysstech\soft\gradle\gradle-5.6.3\bin;D:\ysstech\soft\groovy\groovy-2.5.6\bin;D:\java\bin;D:\ysstech\soft\go\go\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+29-May-2020 08:10:08.031 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+29-May-2020 08:10:08.153 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[2,997]毫秒内初始化
+29-May-2020 08:10:08.349 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+29-May-2020 08:10:08.349 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.x-dev]
+29-May-2020 08:10:08.430 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]
+29-May-2020 08:10:09.744 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]的部署已在[1,315]毫秒内完成
+29-May-2020 08:10:09.745 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]
+29-May-2020 08:10:09.925 严重 [main] org.apache.catalina.core.StandardContext.startInternal ä¸ä¸ªæå¤ä¸ªlistenerså¯å¨å¤±è´¥ï¼æ´å¤è¯¦ç»ä¿¡æ¯æ¥çå¯¹åºçå®¹å¨æ¥å¿æä»¶
+29-May-2020 08:10:09.926 严重 [main] org.apache.catalina.core.StandardContext.startInternal 由于之前的错误，Context[/examples]启动失败
+29-May-2020 08:10:09.931 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]的部署已在[187]毫秒内完成
+29-May-2020 08:10:09.931 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]
+29-May-2020 08:10:10.038 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]的部署已在[107]毫秒内完成
+29-May-2020 08:10:10.038 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\manager]
+29-May-2020 08:10:10.097 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\manager]的部署已在[58]毫秒内完成
+29-May-2020 08:10:10.097 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\ROOT]
+29-May-2020 08:10:10.130 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\ROOT]的部署已在[32]毫秒内完成
+29-May-2020 08:10:10.150 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+29-May-2020 08:10:10.210 信息 [main] org.apache.catalina.startup.Catalina.start [2,057]毫秒后服务器启动
+29-May-2020 08:16:48.611 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.x-dev
+29-May-2020 08:16:48.614 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        unknown
+29-May-2020 08:16:48.614 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.x
+29-May-2020 08:16:48.614 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 7
+29-May-2020 08:16:48.615 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           6.1
+29-May-2020 08:16:48.615 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+29-May-2020 08:16:48.615 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     D:\java\jre
+29-May-2020 08:16:48.615 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_221-b11
+29-May-2020 08:16:48.615 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+29-May-2020 08:16:48.615 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\ysstech\workspace_tomcat\code\catalina-home
+29-May-2020 08:16:48.615 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\ysstech\workspace_tomcat\code\catalina-home
+29-May-2020 08:16:48.616 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-agentlib:jdwp=transport=dt_socket,address=127.0.0.1:62754,suspend=y,server=n
+29-May-2020 08:16:48.616 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=catalina-home
+29-May-2020 08:16:48.616 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=catalina-home
+29-May-2020 08:16:48.616 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.endorsed.dirs=catalina-home/endorsed
+29-May-2020 08:16:48.616 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=catalina-home/temp
+29-May-2020 08:16:48.617 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-May-2020 08:16:48.617 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=catalina-home/conf/logging.properties
+29-May-2020 08:16:48.617 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dfile.encoding=UTF-8
+29-May-2020 08:16:48.617 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-javaagent:C:\Users\pc\.IntelliJIdea2019.1\system\captureAgent\debugger-agent.jar
+29-May-2020 08:16:48.617 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[D:\java\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\ysstech\soft\oracle\oracle11\product\11.2.0\dbhome_1\bin;D:\ysstech\soft\oracle\oracle\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\UCRT\;C:\Program Files\Intel\UCRT\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Python\Python36-32\Scripts;D:\Python\xuexi\chromedriver.exe;D:\ysstech\soft\git\bin;C:\Program Files\Git\cmd;D:\ysstech\soft\redis\;D:\ysstech\soft\maven\apache-maven-3.6.1\bin;D:\ysstech\soft\vscode\Microsoft VS Codebin;D:\ysstech\soft\mysql\mysql-5.7.22-winx64\bin;D:\ysstech\soft\vscode\Microsoft VS Code\bin;D:\ysstech\soft\erlang\erl10.4\bin;D:\ysstech\soft\gradle\gradle-5.6.3\bin;D:\ysstech\soft\groovy\groovy-2.5.6\bin;D:\java\bin;D:\ysstech\soft\go\go\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+29-May-2020 08:16:48.913 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+29-May-2020 08:16:48.998 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[536]毫秒内初始化
+29-May-2020 08:16:49.019 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+29-May-2020 08:16:49.019 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.x-dev]
+29-May-2020 08:16:49.027 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]
+29-May-2020 08:16:49.277 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]的部署已在[250]毫秒内完成
+29-May-2020 08:16:49.278 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]
+29-May-2020 08:16:49.334 严重 [main] org.apache.catalina.core.StandardContext.startInternal ä¸ä¸ªæå¤ä¸ªlistenerså¯å¨å¤±è´¥ï¼æ´å¤è¯¦ç»ä¿¡æ¯æ¥çå¯¹åºçå®¹å¨æ¥å¿æä»¶
+29-May-2020 08:16:49.335 严重 [main] org.apache.catalina.core.StandardContext.startInternal 由于之前的错误，Context[/examples]启动失败
+29-May-2020 08:16:49.340 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]的部署已在[62]毫秒内完成
+29-May-2020 08:16:49.341 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]
+29-May-2020 08:16:49.385 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]的部署已在[44]毫秒内完成
+29-May-2020 08:16:49.385 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\manager]
+29-May-2020 08:16:49.450 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\manager]的部署已在[65]毫秒内完成
+29-May-2020 08:16:49.450 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\ROOT]
+29-May-2020 08:16:49.489 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\ROOT]的部署已在[39]毫秒内完成
+29-May-2020 08:16:49.493 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+29-May-2020 08:16:49.500 信息 [main] org.apache.catalina.startup.Catalina.start [501]毫秒后服务器启动
+29-May-2020 08:18:50.390 信息 [Thread-4] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+29-May-2020 08:18:50.419 信息 [Thread-4] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+29-May-2020 08:18:50.443 信息 [Thread-4] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+29-May-2020 08:18:50.444 信息 [Thread-4] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+29-May-2020 08:18:54.455 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.x-dev
+29-May-2020 08:18:54.459 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        unknown
+29-May-2020 08:18:54.459 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.x
+29-May-2020 08:18:54.459 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 7
+29-May-2020 08:18:54.459 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           6.1
+29-May-2020 08:18:54.459 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+29-May-2020 08:18:54.459 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     D:\java\jre
+29-May-2020 08:18:54.459 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_221-b11
+29-May-2020 08:18:54.459 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+29-May-2020 08:18:54.459 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\ysstech\workspace_tomcat\code\catalina-home
+29-May-2020 08:18:54.459 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\ysstech\workspace_tomcat\code\catalina-home
+29-May-2020 08:18:54.461 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-agentlib:jdwp=transport=dt_socket,address=127.0.0.1:62889,suspend=y,server=n
+29-May-2020 08:18:54.461 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=catalina-home
+29-May-2020 08:18:54.461 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=catalina-home
+29-May-2020 08:18:54.461 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.endorsed.dirs=catalina-home/endorsed
+29-May-2020 08:18:54.461 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=catalina-home/temp
+29-May-2020 08:18:54.461 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-May-2020 08:18:54.461 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=catalina-home/conf/logging.properties
+29-May-2020 08:18:54.461 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dfile.encoding=UTF-8
+29-May-2020 08:18:54.461 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-javaagent:C:\Users\pc\.IntelliJIdea2019.1\system\captureAgent\debugger-agent.jar
+29-May-2020 08:18:54.461 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[D:\java\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\ysstech\soft\oracle\oracle11\product\11.2.0\dbhome_1\bin;D:\ysstech\soft\oracle\oracle\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\UCRT\;C:\Program Files\Intel\UCRT\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Python\Python36-32\Scripts;D:\Python\xuexi\chromedriver.exe;D:\ysstech\soft\git\bin;C:\Program Files\Git\cmd;D:\ysstech\soft\redis\;D:\ysstech\soft\maven\apache-maven-3.6.1\bin;D:\ysstech\soft\vscode\Microsoft VS Codebin;D:\ysstech\soft\mysql\mysql-5.7.22-winx64\bin;D:\ysstech\soft\vscode\Microsoft VS Code\bin;D:\ysstech\soft\erlang\erl10.4\bin;D:\ysstech\soft\gradle\gradle-5.6.3\bin;D:\ysstech\soft\groovy\groovy-2.5.6\bin;D:\java\bin;D:\ysstech\soft\go\go\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+29-May-2020 08:18:54.794 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+29-May-2020 08:18:54.907 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[615]毫秒内初始化
+29-May-2020 08:18:54.962 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+29-May-2020 08:18:54.963 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.x-dev]
+29-May-2020 08:18:54.975 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]
+29-May-2020 08:20:58.374 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]的部署已在[123,022]毫秒内完成
+29-May-2020 08:21:15.601 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]
+29-May-2020 08:21:37.029 严重 [main] org.apache.catalina.core.StandardContext.startInternal ä¸ä¸ªæå¤ä¸ªlistenerså¯å¨å¤±è´¥ï¼æ´å¤è¯¦ç»ä¿¡æ¯æ¥çå¯¹åºçå®¹å¨æ¥å¿æä»¶
+29-May-2020 08:22:02.107 严重 [main] org.apache.catalina.core.StandardContext.startInternal 由于之前的错误，Context[/examples]启动失败
+29-May-2020 08:22:10.397 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.x-dev
+29-May-2020 08:22:10.401 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        unknown
+29-May-2020 08:22:10.401 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.x
+29-May-2020 08:22:10.401 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 7
+29-May-2020 08:22:10.401 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           6.1
+29-May-2020 08:22:10.401 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+29-May-2020 08:22:10.401 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     D:\java\jre
+29-May-2020 08:22:10.401 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_221-b11
+29-May-2020 08:22:10.401 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+29-May-2020 08:22:10.402 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\ysstech\workspace_tomcat\code\catalina-home
+29-May-2020 08:22:10.402 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\ysstech\workspace_tomcat\code\catalina-home
+29-May-2020 08:22:10.403 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-agentlib:jdwp=transport=dt_socket,address=127.0.0.1:63059,suspend=y,server=n
+29-May-2020 08:22:10.403 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=catalina-home
+29-May-2020 08:22:10.403 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=catalina-home
+29-May-2020 08:22:10.403 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.endorsed.dirs=catalina-home/endorsed
+29-May-2020 08:22:10.403 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=catalina-home/temp
+29-May-2020 08:22:10.403 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-May-2020 08:22:10.403 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=catalina-home/conf/logging.properties
+29-May-2020 08:22:10.403 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dfile.encoding=UTF-8
+29-May-2020 08:22:10.403 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-javaagent:C:\Users\pc\.IntelliJIdea2019.1\system\captureAgent\debugger-agent.jar
+29-May-2020 08:22:10.403 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[D:\java\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\ysstech\soft\oracle\oracle11\product\11.2.0\dbhome_1\bin;D:\ysstech\soft\oracle\oracle\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\UCRT\;C:\Program Files\Intel\UCRT\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Python\Python36-32\Scripts;D:\Python\xuexi\chromedriver.exe;D:\ysstech\soft\git\bin;C:\Program Files\Git\cmd;D:\ysstech\soft\redis\;D:\ysstech\soft\maven\apache-maven-3.6.1\bin;D:\ysstech\soft\vscode\Microsoft VS Codebin;D:\ysstech\soft\mysql\mysql-5.7.22-winx64\bin;D:\ysstech\soft\vscode\Microsoft VS Code\bin;D:\ysstech\soft\erlang\erl10.4\bin;D:\ysstech\soft\gradle\gradle-5.6.3\bin;D:\ysstech\soft\groovy\groovy-2.5.6\bin;D:\java\bin;D:\ysstech\soft\go\go\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+29-May-2020 08:22:10.691 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+29-May-2020 08:22:10.770 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[526]毫秒内初始化
+29-May-2020 08:22:10.794 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+29-May-2020 08:22:10.794 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.x-dev]
+29-May-2020 08:22:10.801 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]
+29-May-2020 08:22:18.954 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]的部署已在[8,153]毫秒内完成
+29-May-2020 08:22:18.955 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]
+29-May-2020 08:22:21.939 严重 [main] org.apache.catalina.core.StandardContext.startInternal ä¸ä¸ªæå¤ä¸ªlistenerså¯å¨å¤±è´¥ï¼æ´å¤è¯¦ç»ä¿¡æ¯æ¥çå¯¹åºçå®¹å¨æ¥å¿æä»¶
+29-May-2020 08:22:33.297 严重 [main] org.apache.catalina.core.StandardContext.startInternal 由于之前的错误，Context[/examples]启动失败
+29-May-2020 08:22:33.317 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]的部署已在[14,362]毫秒内完成
+29-May-2020 08:22:33.318 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]
+29-May-2020 08:22:37.185 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.x-dev
+29-May-2020 08:22:37.189 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        unknown
+29-May-2020 08:22:37.189 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.x
+29-May-2020 08:22:37.189 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 7
+29-May-2020 08:22:37.189 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           6.1
+29-May-2020 08:22:37.189 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+29-May-2020 08:22:37.189 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     D:\java\jre
+29-May-2020 08:22:37.189 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_221-b11
+29-May-2020 08:22:37.189 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+29-May-2020 08:22:37.189 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\ysstech\workspace_tomcat\code\catalina-home
+29-May-2020 08:22:37.189 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\ysstech\workspace_tomcat\code\catalina-home
+29-May-2020 08:22:37.191 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-agentlib:jdwp=transport=dt_socket,address=127.0.0.1:63086,suspend=y,server=n
+29-May-2020 08:22:37.191 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=catalina-home
+29-May-2020 08:22:37.191 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=catalina-home
+29-May-2020 08:22:37.191 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.endorsed.dirs=catalina-home/endorsed
+29-May-2020 08:22:37.191 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=catalina-home/temp
+29-May-2020 08:22:37.191 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-May-2020 08:22:37.191 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=catalina-home/conf/logging.properties
+29-May-2020 08:22:37.192 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dfile.encoding=UTF-8
+29-May-2020 08:22:37.192 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-javaagent:C:\Users\pc\.IntelliJIdea2019.1\system\captureAgent\debugger-agent.jar
+29-May-2020 08:22:37.192 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[D:\java\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\ysstech\soft\oracle\oracle11\product\11.2.0\dbhome_1\bin;D:\ysstech\soft\oracle\oracle\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\UCRT\;C:\Program Files\Intel\UCRT\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Python\Python36-32\Scripts;D:\Python\xuexi\chromedriver.exe;D:\ysstech\soft\git\bin;C:\Program Files\Git\cmd;D:\ysstech\soft\redis\;D:\ysstech\soft\maven\apache-maven-3.6.1\bin;D:\ysstech\soft\vscode\Microsoft VS Codebin;D:\ysstech\soft\mysql\mysql-5.7.22-winx64\bin;D:\ysstech\soft\vscode\Microsoft VS Code\bin;D:\ysstech\soft\erlang\erl10.4\bin;D:\ysstech\soft\gradle\gradle-5.6.3\bin;D:\ysstech\soft\groovy\groovy-2.5.6\bin;D:\java\bin;D:\ysstech\soft\go\go\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+29-May-2020 08:22:37.526 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+29-May-2020 08:22:37.621 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[617]毫秒内初始化
+29-May-2020 08:22:37.647 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+29-May-2020 08:22:37.648 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.x-dev]
+29-May-2020 08:22:37.657 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]
+29-May-2020 08:24:59.355 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]的部署已在[141,697]毫秒内完成
+29-May-2020 08:24:59.356 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]
+29-May-2020 08:24:59.436 严重 [main] org.apache.catalina.core.StandardContext.startInternal ä¸ä¸ªæå¤ä¸ªlistenerså¯å¨å¤±è´¥ï¼æ´å¤è¯¦ç»ä¿¡æ¯æ¥çå¯¹åºçå®¹å¨æ¥å¿æä»¶
+29-May-2020 08:25:14.909 严重 [main] org.apache.catalina.core.StandardContext.startInternal 由于之前的错误，Context[/examples]启动失败
+29-May-2020 08:25:14.924 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]的部署已在[15,569]毫秒内完成
+29-May-2020 08:25:14.925 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]
+29-May-2020 08:25:23.434 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]的部署已在[8,509]毫秒内完成
+29-May-2020 08:25:23.435 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\manager]
+29-May-2020 08:25:25.670 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\manager]的部署已在[2,235]毫秒内完成
+29-May-2020 08:25:25.671 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\ROOT]
+29-May-2020 08:25:30.000 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.x-dev
+29-May-2020 08:25:30.003 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        unknown
+29-May-2020 08:25:30.003 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.x
+29-May-2020 08:25:30.003 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 7
+29-May-2020 08:25:30.003 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           6.1
+29-May-2020 08:25:30.004 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+29-May-2020 08:25:30.004 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     D:\java\jre
+29-May-2020 08:25:30.004 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_221-b11
+29-May-2020 08:25:30.004 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+29-May-2020 08:25:30.004 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\ysstech\workspace_tomcat\code\catalina-home
+29-May-2020 08:25:30.004 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\ysstech\workspace_tomcat\code\catalina-home
+29-May-2020 08:25:30.005 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-agentlib:jdwp=transport=dt_socket,address=127.0.0.1:63239,suspend=y,server=n
+29-May-2020 08:25:30.005 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=catalina-home
+29-May-2020 08:25:30.006 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=catalina-home
+29-May-2020 08:25:30.006 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.endorsed.dirs=catalina-home/endorsed
+29-May-2020 08:25:30.006 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=catalina-home/temp
+29-May-2020 08:25:30.006 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-May-2020 08:25:30.006 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=catalina-home/conf/logging.properties
+29-May-2020 08:25:30.006 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dfile.encoding=UTF-8
+29-May-2020 08:25:30.006 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-javaagent:C:\Users\pc\.IntelliJIdea2019.1\system\captureAgent\debugger-agent.jar
+29-May-2020 08:25:30.006 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[D:\java\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\ysstech\soft\oracle\oracle11\product\11.2.0\dbhome_1\bin;D:\ysstech\soft\oracle\oracle\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\UCRT\;C:\Program Files\Intel\UCRT\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Python\Python36-32\Scripts;D:\Python\xuexi\chromedriver.exe;D:\ysstech\soft\git\bin;C:\Program Files\Git\cmd;D:\ysstech\soft\redis\;D:\ysstech\soft\maven\apache-maven-3.6.1\bin;D:\ysstech\soft\vscode\Microsoft VS Codebin;D:\ysstech\soft\mysql\mysql-5.7.22-winx64\bin;D:\ysstech\soft\vscode\Microsoft VS Code\bin;D:\ysstech\soft\erlang\erl10.4\bin;D:\ysstech\soft\gradle\gradle-5.6.3\bin;D:\ysstech\soft\groovy\groovy-2.5.6\bin;D:\java\bin;D:\ysstech\soft\go\go\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+29-May-2020 08:25:30.300 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+29-May-2020 08:25:30.399 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[546]毫秒内初始化
+29-May-2020 08:25:30.427 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+29-May-2020 08:25:30.428 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.x-dev]
+29-May-2020 08:25:30.435 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]
+29-May-2020 08:25:32.542 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]的部署已在[2,106]毫秒内完成
+29-May-2020 08:25:32.542 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]
+29-May-2020 08:25:42.958 严重 [main] org.apache.catalina.core.StandardContext.startInternal ä¸ä¸ªæå¤ä¸ªlistenerså¯å¨å¤±è´¥ï¼æ´å¤è¯¦ç»ä¿¡æ¯æ¥çå¯¹åºçå®¹å¨æ¥å¿æä»¶
+29-May-2020 08:26:00.288 严重 [main] org.apache.catalina.core.StandardContext.startInternal 由于之前的错误，Context[/examples]启动失败
+29-May-2020 08:26:00.295 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]的部署已在[27,753]毫秒内完成
+29-May-2020 08:26:00.296 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]
+29-May-2020 08:26:04.216 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.x-dev
+29-May-2020 08:26:04.220 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        unknown
+29-May-2020 08:26:04.220 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.x
+29-May-2020 08:26:04.220 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 7
+29-May-2020 08:26:04.221 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           6.1
+29-May-2020 08:26:04.221 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+29-May-2020 08:26:04.221 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     D:\java\jre
+29-May-2020 08:26:04.221 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_221-b11
+29-May-2020 08:26:04.221 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+29-May-2020 08:26:04.221 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\ysstech\workspace_tomcat\code\catalina-home
+29-May-2020 08:26:04.221 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\ysstech\workspace_tomcat\code\catalina-home
+29-May-2020 08:26:04.222 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-agentlib:jdwp=transport=dt_socket,address=127.0.0.1:63269,suspend=y,server=n
+29-May-2020 08:26:04.223 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=catalina-home
+29-May-2020 08:26:04.223 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=catalina-home
+29-May-2020 08:26:04.223 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.endorsed.dirs=catalina-home/endorsed
+29-May-2020 08:26:04.223 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=catalina-home/temp
+29-May-2020 08:26:04.223 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-May-2020 08:26:04.223 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=catalina-home/conf/logging.properties
+29-May-2020 08:26:04.223 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dfile.encoding=UTF-8
+29-May-2020 08:26:04.223 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-javaagent:C:\Users\pc\.IntelliJIdea2019.1\system\captureAgent\debugger-agent.jar
+29-May-2020 08:26:04.223 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[D:\java\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\ysstech\soft\oracle\oracle11\product\11.2.0\dbhome_1\bin;D:\ysstech\soft\oracle\oracle\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\UCRT\;C:\Program Files\Intel\UCRT\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Python\Python36-32\Scripts;D:\Python\xuexi\chromedriver.exe;D:\ysstech\soft\git\bin;C:\Program Files\Git\cmd;D:\ysstech\soft\redis\;D:\ysstech\soft\maven\apache-maven-3.6.1\bin;D:\ysstech\soft\vscode\Microsoft VS Codebin;D:\ysstech\soft\mysql\mysql-5.7.22-winx64\bin;D:\ysstech\soft\vscode\Microsoft VS Code\bin;D:\ysstech\soft\erlang\erl10.4\bin;D:\ysstech\soft\gradle\gradle-5.6.3\bin;D:\ysstech\soft\groovy\groovy-2.5.6\bin;D:\java\bin;D:\ysstech\soft\go\go\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+29-May-2020 08:26:04.550 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+29-May-2020 08:26:04.649 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[602]毫秒内初始化
+29-May-2020 08:26:04.675 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+29-May-2020 08:26:04.675 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.x-dev]
+29-May-2020 08:26:04.684 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]
+29-May-2020 08:26:08.101 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]的部署已在[3,417]毫秒内完成
+29-May-2020 08:26:08.102 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]
+29-May-2020 08:27:36.968 严重 [main] org.apache.catalina.core.StandardContext.startInternal ä¸ä¸ªæå¤ä¸ªlistenerså¯å¨å¤±è´¥ï¼æ´å¤è¯¦ç»ä¿¡æ¯æ¥çå¯¹åºçå®¹å¨æ¥å¿æä»¶
+29-May-2020 08:27:36.973 严重 [main] org.apache.catalina.core.StandardContext.startInternal 由于之前的错误，Context[/examples]启动失败
+29-May-2020 08:27:36.994 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]的部署已在[88,891]毫秒内完成
+29-May-2020 08:27:36.994 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]
+29-May-2020 08:27:37.057 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]的部署已在[63]毫秒内完成
+29-May-2020 08:27:37.057 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\manager]
+29-May-2020 08:45:26.503 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.x-dev
+29-May-2020 08:45:26.509 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        unknown
+29-May-2020 08:45:26.509 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.x
+29-May-2020 08:45:26.509 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 7
+29-May-2020 08:45:26.509 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           6.1
+29-May-2020 08:45:26.509 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+29-May-2020 08:45:26.509 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     D:\java\jre
+29-May-2020 08:45:26.509 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_221-b11
+29-May-2020 08:45:26.509 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+29-May-2020 08:45:26.509 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\ysstech\workspace_tomcat\code\catalina-home
+29-May-2020 08:45:26.509 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\ysstech\workspace_tomcat\code\catalina-home
+29-May-2020 08:45:26.510 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-agentlib:jdwp=transport=dt_socket,address=127.0.0.1:64283,suspend=y,server=n
+29-May-2020 08:45:26.510 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=catalina-home
+29-May-2020 08:45:26.511 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=catalina-home
+29-May-2020 08:45:26.511 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.endorsed.dirs=catalina-home/endorsed
+29-May-2020 08:45:26.511 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=catalina-home/temp
+29-May-2020 08:45:26.511 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-May-2020 08:45:26.511 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=catalina-home/conf/logging.properties
+29-May-2020 08:45:26.511 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dfile.encoding=UTF-8
+29-May-2020 08:45:26.511 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-javaagent:C:\Users\pc\.IntelliJIdea2019.1\system\captureAgent\debugger-agent.jar
+29-May-2020 08:45:26.511 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[D:\java\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\ysstech\soft\oracle\oracle11\product\11.2.0\dbhome_1\bin;D:\ysstech\soft\oracle\oracle\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\UCRT\;C:\Program Files\Intel\UCRT\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Python\Python36-32\Scripts;D:\Python\xuexi\chromedriver.exe;D:\ysstech\soft\git\bin;C:\Program Files\Git\cmd;D:\ysstech\soft\redis\;D:\ysstech\soft\maven\apache-maven-3.6.1\bin;D:\ysstech\soft\vscode\Microsoft VS Codebin;D:\ysstech\soft\mysql\mysql-5.7.22-winx64\bin;D:\ysstech\soft\vscode\Microsoft VS Code\bin;D:\ysstech\soft\erlang\erl10.4\bin;D:\ysstech\soft\gradle\gradle-5.6.3\bin;D:\ysstech\soft\groovy\groovy-2.5.6\bin;D:\java\bin;D:\ysstech\soft\go\go\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+29-May-2020 08:45:26.775 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+29-May-2020 08:45:26.851 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[556]毫秒内初始化
+29-May-2020 08:45:26.880 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+29-May-2020 08:45:26.881 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.x-dev]
+29-May-2020 08:45:26.886 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]
+29-May-2020 08:45:29.269 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]的部署已在[2,383]毫秒内完成
+29-May-2020 08:45:29.269 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]
+29-May-2020 08:45:30.467 严重 [main] org.apache.catalina.core.StandardContext.startInternal ä¸ä¸ªæå¤ä¸ªlistenerså¯å¨å¤±è´¥ï¼æ´å¤è¯¦ç»ä¿¡æ¯æ¥çå¯¹åºçå®¹å¨æ¥å¿æä»¶
+29-May-2020 08:45:30.468 严重 [main] org.apache.catalina.core.StandardContext.startInternal 由于之前的错误，Context[/examples]启动失败
+29-May-2020 08:45:30.475 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]的部署已在[1,206]毫秒内完成
+29-May-2020 08:45:30.475 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]
+29-May-2020 08:45:31.384 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]的部署已在[909]毫秒内完成
+29-May-2020 08:45:31.384 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\manager]
+29-May-2020 08:45:31.879 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\manager]的部署已在[495]毫秒内完成
+29-May-2020 08:45:31.879 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\ROOT]
+29-May-2020 08:45:32.533 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\ROOT]的部署已在[654]毫秒内完成
+29-May-2020 08:45:32.538 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+29-May-2020 08:45:32.562 信息 [main] org.apache.catalina.startup.Catalina.start [5,710]毫秒后服务器启动
+29-May-2020 08:46:47.281 信息 [Thread-4] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+29-May-2020 08:46:47.332 信息 [Thread-4] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+29-May-2020 08:46:47.354 信息 [Thread-4] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+29-May-2020 08:46:47.357 信息 [Thread-4] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+29-May-2020 08:47:28.917 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.x-dev
+29-May-2020 08:47:28.943 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        unknown
+29-May-2020 08:47:28.943 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.x
+29-May-2020 08:47:28.943 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 7
+29-May-2020 08:47:28.944 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           6.1
+29-May-2020 08:47:28.944 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+29-May-2020 08:47:28.944 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     D:\java\jre
+29-May-2020 08:47:28.944 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_221-b11
+29-May-2020 08:47:28.944 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+29-May-2020 08:47:28.944 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\ysstech\workspace_tomcat\code\catalina-home
+29-May-2020 08:47:28.944 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\ysstech\workspace_tomcat\code\catalina-home
+29-May-2020 08:47:28.945 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-agentlib:jdwp=transport=dt_socket,address=127.0.0.1:64404,suspend=y,server=n
+29-May-2020 08:47:28.945 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=catalina-home
+29-May-2020 08:47:28.945 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=catalina-home
+29-May-2020 08:47:28.946 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.endorsed.dirs=catalina-home/endorsed
+29-May-2020 08:47:28.946 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=catalina-home/temp
+29-May-2020 08:47:28.946 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-May-2020 08:47:28.946 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=catalina-home/conf/logging.properties
+29-May-2020 08:47:28.946 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dfile.encoding=UTF-8
+29-May-2020 08:47:28.946 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-javaagent:C:\Users\pc\.IntelliJIdea2019.1\system\captureAgent\debugger-agent.jar
+29-May-2020 08:47:28.946 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[D:\java\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\ysstech\soft\oracle\oracle11\product\11.2.0\dbhome_1\bin;D:\ysstech\soft\oracle\oracle\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\UCRT\;C:\Program Files\Intel\UCRT\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Python\Python36-32\Scripts;D:\Python\xuexi\chromedriver.exe;D:\ysstech\soft\git\bin;C:\Program Files\Git\cmd;D:\ysstech\soft\redis\;D:\ysstech\soft\maven\apache-maven-3.6.1\bin;D:\ysstech\soft\vscode\Microsoft VS Codebin;D:\ysstech\soft\mysql\mysql-5.7.22-winx64\bin;D:\ysstech\soft\vscode\Microsoft VS Code\bin;D:\ysstech\soft\erlang\erl10.4\bin;D:\ysstech\soft\gradle\gradle-5.6.3\bin;D:\ysstech\soft\groovy\groovy-2.5.6\bin;D:\java\bin;D:\ysstech\soft\go\go\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+29-May-2020 08:47:29.221 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+29-May-2020 08:47:29.301 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[1,029]毫秒内初始化
+29-May-2020 08:47:29.399 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+29-May-2020 08:47:29.399 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.x-dev]
+29-May-2020 08:47:29.405 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]
+29-May-2020 08:47:31.735 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]的部署已在[2,330]毫秒内完成
+29-May-2020 08:47:31.736 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]
+29-May-2020 08:47:34.320 严重 [main] org.apache.catalina.core.StandardContext.startInternal ä¸ä¸ªæå¤ä¸ªlistenerså¯å¨å¤±è´¥ï¼æ´å¤è¯¦ç»ä¿¡æ¯æ¥çå¯¹åºçå®¹å¨æ¥å¿æä»¶
+29-May-2020 08:47:34.321 严重 [main] org.apache.catalina.core.StandardContext.startInternal 由于之前的错误，Context[/examples]启动失败
+29-May-2020 08:47:34.326 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]的部署已在[2,590]毫秒内完成
+29-May-2020 08:47:34.326 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]
+29-May-2020 08:47:35.312 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]的部署已在[986]毫秒内完成
+29-May-2020 08:47:35.312 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\manager]
+29-May-2020 08:47:35.866 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\manager]的部署已在[554]毫秒内完成
+29-May-2020 08:47:35.867 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\ROOT]
+29-May-2020 08:47:36.355 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\ROOT]的部署已在[488]毫秒内完成
+29-May-2020 08:47:36.361 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+29-May-2020 08:47:36.435 信息 [main] org.apache.catalina.startup.Catalina.start [7,133]毫秒后服务器启动
+29-May-2020 08:48:41.985 信息 [Thread-4] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+29-May-2020 08:48:42.019 信息 [Thread-4] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+29-May-2020 08:48:42.039 信息 [Thread-4] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+29-May-2020 08:48:42.041 信息 [Thread-4] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+29-May-2020 08:48:45.100 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.x-dev
+29-May-2020 08:48:45.126 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        unknown
+29-May-2020 08:48:45.126 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.x
+29-May-2020 08:48:45.126 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 7
+29-May-2020 08:48:45.126 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           6.1
+29-May-2020 08:48:45.126 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+29-May-2020 08:48:45.127 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     D:\java\jre
+29-May-2020 08:48:45.127 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_221-b11
+29-May-2020 08:48:45.127 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+29-May-2020 08:48:45.127 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\ysstech\workspace_tomcat\code\catalina-home
+29-May-2020 08:48:45.127 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\ysstech\workspace_tomcat\code\catalina-home
+29-May-2020 08:48:45.128 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-agentlib:jdwp=transport=dt_socket,address=127.0.0.1:64485,suspend=y,server=n
+29-May-2020 08:48:45.128 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=catalina-home
+29-May-2020 08:48:45.128 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=catalina-home
+29-May-2020 08:48:45.128 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.endorsed.dirs=catalina-home/endorsed
+29-May-2020 08:48:45.128 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=catalina-home/temp
+29-May-2020 08:48:45.128 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-May-2020 08:48:45.128 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=catalina-home/conf/logging.properties
+29-May-2020 08:48:45.129 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dfile.encoding=UTF-8
+29-May-2020 08:48:45.129 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-javaagent:C:\Users\pc\.IntelliJIdea2019.1\system\captureAgent\debugger-agent.jar
+29-May-2020 08:48:45.129 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[D:\java\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\ysstech\soft\oracle\oracle11\product\11.2.0\dbhome_1\bin;D:\ysstech\soft\oracle\oracle\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\UCRT\;C:\Program Files\Intel\UCRT\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Python\Python36-32\Scripts;D:\Python\xuexi\chromedriver.exe;D:\ysstech\soft\git\bin;C:\Program Files\Git\cmd;D:\ysstech\soft\redis\;D:\ysstech\soft\maven\apache-maven-3.6.1\bin;D:\ysstech\soft\vscode\Microsoft VS Codebin;D:\ysstech\soft\mysql\mysql-5.7.22-winx64\bin;D:\ysstech\soft\vscode\Microsoft VS Code\bin;D:\ysstech\soft\erlang\erl10.4\bin;D:\ysstech\soft\gradle\gradle-5.6.3\bin;D:\ysstech\soft\groovy\groovy-2.5.6\bin;D:\java\bin;D:\ysstech\soft\go\go\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+29-May-2020 08:48:45.415 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+29-May-2020 08:48:45.553 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[1,122]毫秒内初始化
+29-May-2020 08:48:45.764 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+29-May-2020 08:48:45.764 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.x-dev]
+29-May-2020 08:48:45.772 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]
+29-May-2020 08:48:51.226 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]的部署已在[5,454]毫秒内完成
+29-May-2020 08:48:51.227 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]
+29-May-2020 08:48:51.308 严重 [main] org.apache.catalina.core.StandardContext.startInternal ä¸ä¸ªæå¤ä¸ªlistenerså¯å¨å¤±è´¥ï¼æ´å¤è¯¦ç»ä¿¡æ¯æ¥çå¯¹åºçå®¹å¨æ¥å¿æä»¶
+29-May-2020 08:48:51.308 严重 [main] org.apache.catalina.core.StandardContext.startInternal 由于之前的错误，Context[/examples]启动失败
+29-May-2020 08:48:51.314 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]的部署已在[87]毫秒内完成
+29-May-2020 08:48:51.314 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]
+29-May-2020 08:48:51.397 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]的部署已在[83]毫秒内完成
+29-May-2020 08:48:51.397 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\manager]
+29-May-2020 08:48:51.449 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\manager]的部署已在[52]毫秒内完成
+29-May-2020 08:48:51.450 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\ROOT]
+29-May-2020 08:48:51.484 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\ROOT]的部署已在[34]毫秒内完成
+29-May-2020 08:48:51.487 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+29-May-2020 08:48:51.530 信息 [main] org.apache.catalina.startup.Catalina.start [5,976]毫秒后服务器启动
+29-May-2020 08:48:58.487 信息 [Thread-4] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+29-May-2020 08:48:58.537 信息 [Thread-4] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+29-May-2020 08:48:58.551 信息 [Thread-4] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+29-May-2020 08:48:58.553 信息 [Thread-4] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+29-May-2020 08:49:03.339 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.x-dev
+29-May-2020 08:49:03.367 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        unknown
+29-May-2020 08:49:03.367 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.x
+29-May-2020 08:49:03.367 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 7
+29-May-2020 08:49:03.367 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           6.1
+29-May-2020 08:49:03.367 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+29-May-2020 08:49:03.368 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     D:\java\jre
+29-May-2020 08:49:03.368 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_221-b11
+29-May-2020 08:49:03.368 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+29-May-2020 08:49:03.368 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\ysstech\workspace_tomcat\code\catalina-home
+29-May-2020 08:49:03.368 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\ysstech\workspace_tomcat\code\catalina-home
+29-May-2020 08:49:03.369 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-agentlib:jdwp=transport=dt_socket,address=127.0.0.1:64509,suspend=y,server=n
+29-May-2020 08:49:03.369 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=catalina-home
+29-May-2020 08:49:03.369 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=catalina-home
+29-May-2020 08:49:03.369 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.endorsed.dirs=catalina-home/endorsed
+29-May-2020 08:49:03.369 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=catalina-home/temp
+29-May-2020 08:49:03.369 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-May-2020 08:49:03.369 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=catalina-home/conf/logging.properties
+29-May-2020 08:49:03.369 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dfile.encoding=UTF-8
+29-May-2020 08:49:03.370 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-javaagent:C:\Users\pc\.IntelliJIdea2019.1\system\captureAgent\debugger-agent.jar
+29-May-2020 08:49:03.370 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[D:\java\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\ysstech\soft\oracle\oracle11\product\11.2.0\dbhome_1\bin;D:\ysstech\soft\oracle\oracle\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\UCRT\;C:\Program Files\Intel\UCRT\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Python\Python36-32\Scripts;D:\Python\xuexi\chromedriver.exe;D:\ysstech\soft\git\bin;C:\Program Files\Git\cmd;D:\ysstech\soft\redis\;D:\ysstech\soft\maven\apache-maven-3.6.1\bin;D:\ysstech\soft\vscode\Microsoft VS Codebin;D:\ysstech\soft\mysql\mysql-5.7.22-winx64\bin;D:\ysstech\soft\vscode\Microsoft VS Code\bin;D:\ysstech\soft\erlang\erl10.4\bin;D:\ysstech\soft\gradle\gradle-5.6.3\bin;D:\ysstech\soft\groovy\groovy-2.5.6\bin;D:\java\bin;D:\ysstech\soft\go\go\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+29-May-2020 08:49:03.660 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+29-May-2020 08:49:03.739 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[1,183]毫秒内初始化
+29-May-2020 08:49:03.857 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+29-May-2020 08:49:03.857 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.x-dev]
+29-May-2020 08:49:03.864 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]
+29-May-2020 08:49:04.451 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]的部署已在[587]毫秒内完成
+29-May-2020 08:49:04.452 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]
+29-May-2020 08:49:04.506 严重 [main] org.apache.catalina.core.StandardContext.startInternal ä¸ä¸ªæå¤ä¸ªlistenerså¯å¨å¤±è´¥ï¼æ´å¤è¯¦ç»ä¿¡æ¯æ¥çå¯¹åºçå®¹å¨æ¥å¿æä»¶
+29-May-2020 08:49:04.507 严重 [main] org.apache.catalina.core.StandardContext.startInternal 由于之前的错误，Context[/examples]启动失败
+29-May-2020 08:49:04.514 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]的部署已在[63]毫秒内完成
+29-May-2020 08:49:04.514 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]
+29-May-2020 08:49:04.600 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]的部署已在[86]毫秒内完成
+29-May-2020 08:49:04.600 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\manager]
+29-May-2020 08:49:04.652 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\manager]的部署已在[52]毫秒内完成
+29-May-2020 08:49:04.652 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\ROOT]
+29-May-2020 08:49:04.687 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\ROOT]的部署已在[35]毫秒内完成
+29-May-2020 08:49:04.690 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+29-May-2020 08:49:04.732 信息 [main] org.apache.catalina.startup.Catalina.start [992]毫秒后服务器启动
+29-May-2020 08:50:59.031 信息 [Thread-4] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+29-May-2020 08:50:59.076 信息 [Thread-4] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+29-May-2020 08:50:59.085 信息 [Thread-4] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+29-May-2020 08:50:59.086 信息 [Thread-4] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+29-May-2020 08:52:13.884 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.x-dev
+29-May-2020 08:52:13.907 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        unknown
+29-May-2020 08:52:13.907 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.x
+29-May-2020 08:52:13.908 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 7
+29-May-2020 08:52:13.908 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           6.1
+29-May-2020 08:52:13.908 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+29-May-2020 08:52:13.908 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     D:\java\jre
+29-May-2020 08:52:13.908 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_221-b11
+29-May-2020 08:52:13.908 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+29-May-2020 08:52:13.908 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\ysstech\workspace_tomcat\code\catalina-home
+29-May-2020 08:52:13.908 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\ysstech\workspace_tomcat\code\catalina-home
+29-May-2020 08:52:13.909 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-agentlib:jdwp=transport=dt_socket,address=127.0.0.1:64843,suspend=y,server=n
+29-May-2020 08:52:13.909 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=catalina-home
+29-May-2020 08:52:13.909 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=catalina-home
+29-May-2020 08:52:13.909 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.endorsed.dirs=catalina-home/endorsed
+29-May-2020 08:52:13.910 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=catalina-home/temp
+29-May-2020 08:52:13.910 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-May-2020 08:52:13.910 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=catalina-home/conf/logging.properties
+29-May-2020 08:52:13.910 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dfile.encoding=UTF-8
+29-May-2020 08:52:13.910 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-javaagent:C:\Users\pc\.IntelliJIdea2019.1\system\captureAgent\debugger-agent.jar
+29-May-2020 08:52:13.910 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[D:\java\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\ysstech\soft\oracle\oracle11\product\11.2.0\dbhome_1\bin;D:\ysstech\soft\oracle\oracle\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\UCRT\;C:\Program Files\Intel\UCRT\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Python\Python36-32\Scripts;D:\Python\xuexi\chromedriver.exe;D:\ysstech\soft\git\bin;C:\Program Files\Git\cmd;D:\ysstech\soft\redis\;D:\ysstech\soft\maven\apache-maven-3.6.1\bin;D:\ysstech\soft\vscode\Microsoft VS Codebin;D:\ysstech\soft\mysql\mysql-5.7.22-winx64\bin;D:\ysstech\soft\vscode\Microsoft VS Code\bin;D:\ysstech\soft\erlang\erl10.4\bin;D:\ysstech\soft\gradle\gradle-5.6.3\bin;D:\ysstech\soft\groovy\groovy-2.5.6\bin;D:\java\bin;D:\ysstech\soft\go\go\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+29-May-2020 08:52:14.187 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+29-May-2020 08:52:14.265 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[1,042]毫秒内初始化
+29-May-2020 08:52:14.354 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+29-May-2020 08:52:14.354 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.x-dev]
+29-May-2020 08:52:14.360 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]
+29-May-2020 08:52:15.003 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]的部署已在[643]毫秒内完成
+29-May-2020 08:52:15.003 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]
+29-May-2020 08:52:15.065 严重 [main] org.apache.catalina.core.StandardContext.startInternal ä¸ä¸ªæå¤ä¸ªlistenerså¯å¨å¤±è´¥ï¼æ´å¤è¯¦ç»ä¿¡æ¯æ¥çå¯¹åºçå®¹å¨æ¥å¿æä»¶
+29-May-2020 08:52:15.065 严重 [main] org.apache.catalina.core.StandardContext.startInternal 由于之前的错误，Context[/examples]启动失败
+29-May-2020 08:52:15.071 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]的部署已在[68]毫秒内完成
+29-May-2020 08:52:15.071 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]
+29-May-2020 08:52:15.154 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]的部署已在[83]毫秒内完成
+29-May-2020 08:52:15.154 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\manager]
+29-May-2020 08:52:15.199 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\manager]的部署已在[45]毫秒内完成
+29-May-2020 08:52:15.199 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\ROOT]
+29-May-2020 08:52:15.233 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\ROOT]的部署已在[34]毫秒内完成
+29-May-2020 08:52:15.236 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+29-May-2020 08:52:15.283 信息 [main] org.apache.catalina.startup.Catalina.start [1,018]毫秒后服务器启动
+29-May-2020 08:55:41.466 信息 [Thread-4] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+29-May-2020 08:55:41.515 信息 [Thread-4] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+29-May-2020 08:55:41.523 信息 [Thread-4] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+29-May-2020 08:55:41.525 信息 [Thread-4] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+29-May-2020 08:55:45.309 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.x-dev
+29-May-2020 08:55:45.333 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        unknown
+29-May-2020 08:55:45.333 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.x
+29-May-2020 08:55:45.333 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 7
+29-May-2020 08:55:45.333 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           6.1
+29-May-2020 08:55:45.333 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+29-May-2020 08:55:45.333 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     D:\java\jre
+29-May-2020 08:55:45.333 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_221-b11
+29-May-2020 08:55:45.333 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+29-May-2020 08:55:45.333 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\ysstech\workspace_tomcat\code\catalina-home
+29-May-2020 08:55:45.333 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\ysstech\workspace_tomcat\code\catalina-home
+29-May-2020 08:55:45.335 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-agentlib:jdwp=transport=dt_socket,address=127.0.0.1:65109,suspend=y,server=n
+29-May-2020 08:55:45.335 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=catalina-home
+29-May-2020 08:55:45.335 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=catalina-home
+29-May-2020 08:55:45.335 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.endorsed.dirs=catalina-home/endorsed
+29-May-2020 08:55:45.335 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=catalina-home/temp
+29-May-2020 08:55:45.335 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-May-2020 08:55:45.335 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=catalina-home/conf/logging.properties
+29-May-2020 08:55:45.335 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dfile.encoding=UTF-8
+29-May-2020 08:55:45.336 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-javaagent:C:\Users\pc\.IntelliJIdea2019.1\system\captureAgent\debugger-agent.jar
+29-May-2020 08:55:45.336 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[D:\java\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\ysstech\soft\oracle\oracle11\product\11.2.0\dbhome_1\bin;D:\ysstech\soft\oracle\oracle\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\UCRT\;C:\Program Files\Intel\UCRT\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Python\Python36-32\Scripts;D:\Python\xuexi\chromedriver.exe;D:\ysstech\soft\git\bin;C:\Program Files\Git\cmd;D:\ysstech\soft\redis\;D:\ysstech\soft\maven\apache-maven-3.6.1\bin;D:\ysstech\soft\vscode\Microsoft VS Codebin;D:\ysstech\soft\mysql\mysql-5.7.22-winx64\bin;D:\ysstech\soft\vscode\Microsoft VS Code\bin;D:\ysstech\soft\erlang\erl10.4\bin;D:\ysstech\soft\gradle\gradle-5.6.3\bin;D:\ysstech\soft\groovy\groovy-2.5.6\bin;D:\java\bin;D:\ysstech\soft\go\go\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+29-May-2020 08:55:45.653 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+29-May-2020 08:55:45.776 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[1,119]毫秒内初始化
+29-May-2020 08:55:45.899 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+29-May-2020 08:55:45.899 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.x-dev]
+29-May-2020 08:55:45.906 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]
+29-May-2020 08:55:46.615 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]的部署已在[709]毫秒内完成
+29-May-2020 08:55:46.616 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]
+29-May-2020 08:55:46.670 严重 [main] org.apache.catalina.core.StandardContext.startInternal ä¸ä¸ªæå¤ä¸ªlistenerså¯å¨å¤±è´¥ï¼æ´å¤è¯¦ç»ä¿¡æ¯æ¥çå¯¹åºçå®¹å¨æ¥å¿æä»¶
+29-May-2020 08:55:46.671 严重 [main] org.apache.catalina.core.StandardContext.startInternal 由于之前的错误，Context[/examples]启动失败
+29-May-2020 08:55:46.676 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]的部署已在[60]毫秒内完成
+29-May-2020 08:55:46.677 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]
+29-May-2020 08:55:46.774 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]的部署已在[98]毫秒内完成
+29-May-2020 08:55:46.774 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\manager]
+29-May-2020 08:55:46.828 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\manager]的部署已在[54]毫秒内完成
+29-May-2020 08:55:46.828 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\ROOT]
+29-May-2020 08:55:46.864 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\ROOT]的部署已在[36]毫秒内完成
+29-May-2020 08:55:46.868 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+29-May-2020 08:55:46.937 信息 [main] org.apache.catalina.startup.Catalina.start [1,160]毫秒后服务器启动
+29-May-2020 08:56:46.432 信息 [Thread-4] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+29-May-2020 08:56:46.481 信息 [Thread-4] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+29-May-2020 08:56:46.489 信息 [Thread-4] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+29-May-2020 08:56:46.491 信息 [Thread-4] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+29-May-2020 08:56:50.444 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.x-dev
+29-May-2020 08:56:50.469 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        unknown
+29-May-2020 08:56:50.469 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.x
+29-May-2020 08:56:50.469 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 7
+29-May-2020 08:56:50.470 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           6.1
+29-May-2020 08:56:50.470 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+29-May-2020 08:56:50.470 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     D:\java\jre
+29-May-2020 08:56:50.470 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_221-b11
+29-May-2020 08:56:50.470 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+29-May-2020 08:56:50.470 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\ysstech\workspace_tomcat\code\catalina-home
+29-May-2020 08:56:50.470 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\ysstech\workspace_tomcat\code\catalina-home
+29-May-2020 08:56:50.471 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-agentlib:jdwp=transport=dt_socket,address=127.0.0.1:65173,suspend=y,server=n
+29-May-2020 08:56:50.471 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=catalina-home
+29-May-2020 08:56:50.471 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=catalina-home
+29-May-2020 08:56:50.471 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.endorsed.dirs=catalina-home/endorsed
+29-May-2020 08:56:50.472 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=catalina-home/temp
+29-May-2020 08:56:50.472 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-May-2020 08:56:50.472 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=catalina-home/conf/logging.properties
+29-May-2020 08:56:50.472 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dfile.encoding=UTF-8
+29-May-2020 08:56:50.472 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-javaagent:C:\Users\pc\.IntelliJIdea2019.1\system\captureAgent\debugger-agent.jar
+29-May-2020 08:56:50.472 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[D:\java\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\ysstech\soft\oracle\oracle11\product\11.2.0\dbhome_1\bin;D:\ysstech\soft\oracle\oracle\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\UCRT\;C:\Program Files\Intel\UCRT\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Python\Python36-32\Scripts;D:\Python\xuexi\chromedriver.exe;D:\ysstech\soft\git\bin;C:\Program Files\Git\cmd;D:\ysstech\soft\redis\;D:\ysstech\soft\maven\apache-maven-3.6.1\bin;D:\ysstech\soft\vscode\Microsoft VS Codebin;D:\ysstech\soft\mysql\mysql-5.7.22-winx64\bin;D:\ysstech\soft\vscode\Microsoft VS Code\bin;D:\ysstech\soft\erlang\erl10.4\bin;D:\ysstech\soft\gradle\gradle-5.6.3\bin;D:\ysstech\soft\groovy\groovy-2.5.6\bin;D:\java\bin;D:\ysstech\soft\go\go\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+29-May-2020 08:56:50.761 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+29-May-2020 08:56:50.845 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[1,093]毫秒内初始化
+29-May-2020 08:56:50.936 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+29-May-2020 08:56:50.936 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.x-dev]
+29-May-2020 08:56:50.943 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]
+29-May-2020 08:56:51.584 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]的部署已在[642]毫秒内完成
+29-May-2020 08:56:51.585 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]
+29-May-2020 08:56:51.646 严重 [main] org.apache.catalina.core.StandardContext.startInternal ä¸ä¸ªæå¤ä¸ªlistenerså¯å¨å¤±è´¥ï¼æ´å¤è¯¦ç»ä¿¡æ¯æ¥çå¯¹åºçå®¹å¨æ¥å¿æä»¶
+29-May-2020 08:56:51.646 严重 [main] org.apache.catalina.core.StandardContext.startInternal 由于之前的错误，Context[/examples]启动失败
+29-May-2020 08:56:51.653 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]的部署已在[68]毫秒内完成
+29-May-2020 08:56:51.653 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]
+29-May-2020 08:56:51.741 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]的部署已在[88]毫秒内完成
+29-May-2020 08:56:51.742 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\manager]
+29-May-2020 08:56:51.787 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\manager]的部署已在[45]毫秒内完成
+29-May-2020 08:56:51.788 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\ROOT]
+29-May-2020 08:56:51.823 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\ROOT]的部署已在[36]毫秒内完成
+29-May-2020 08:56:51.827 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+29-May-2020 08:56:51.883 信息 [main] org.apache.catalina.startup.Catalina.start [1,038]毫秒后服务器启动
+29-May-2020 08:57:10.801 信息 [Thread-4] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+29-May-2020 08:57:10.847 信息 [Thread-4] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+29-May-2020 08:57:10.856 信息 [Thread-4] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+29-May-2020 08:57:10.858 信息 [Thread-4] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+29-May-2020 08:57:15.734 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.x-dev
+29-May-2020 08:57:15.761 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        unknown
+29-May-2020 08:57:15.761 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.x
+29-May-2020 08:57:15.762 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 7
+29-May-2020 08:57:15.762 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           6.1
+29-May-2020 08:57:15.762 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+29-May-2020 08:57:15.762 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     D:\java\jre
+29-May-2020 08:57:15.762 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_221-b11
+29-May-2020 08:57:15.762 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+29-May-2020 08:57:15.762 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\ysstech\workspace_tomcat\code\catalina-home
+29-May-2020 08:57:15.762 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\ysstech\workspace_tomcat\code\catalina-home
+29-May-2020 08:57:15.763 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-agentlib:jdwp=transport=dt_socket,address=127.0.0.1:65202,suspend=y,server=n
+29-May-2020 08:57:15.764 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=catalina-home
+29-May-2020 08:57:15.764 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=catalina-home
+29-May-2020 08:57:15.764 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.endorsed.dirs=catalina-home/endorsed
+29-May-2020 08:57:15.764 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=catalina-home/temp
+29-May-2020 08:57:15.764 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-May-2020 08:57:15.764 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=catalina-home/conf/logging.properties
+29-May-2020 08:57:15.764 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dfile.encoding=UTF-8
+29-May-2020 08:57:15.765 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-javaagent:C:\Users\pc\.IntelliJIdea2019.1\system\captureAgent\debugger-agent.jar
+29-May-2020 08:57:15.765 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[D:\java\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\ysstech\soft\oracle\oracle11\product\11.2.0\dbhome_1\bin;D:\ysstech\soft\oracle\oracle\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\UCRT\;C:\Program Files\Intel\UCRT\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Python\Python36-32\Scripts;D:\Python\xuexi\chromedriver.exe;D:\ysstech\soft\git\bin;C:\Program Files\Git\cmd;D:\ysstech\soft\redis\;D:\ysstech\soft\maven\apache-maven-3.6.1\bin;D:\ysstech\soft\vscode\Microsoft VS Codebin;D:\ysstech\soft\mysql\mysql-5.7.22-winx64\bin;D:\ysstech\soft\vscode\Microsoft VS Code\bin;D:\ysstech\soft\erlang\erl10.4\bin;D:\ysstech\soft\gradle\gradle-5.6.3\bin;D:\ysstech\soft\groovy\groovy-2.5.6\bin;D:\java\bin;D:\ysstech\soft\go\go\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+29-May-2020 08:57:16.045 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+29-May-2020 08:57:16.124 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[1,072]毫秒内初始化
+29-May-2020 08:57:16.218 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+29-May-2020 08:57:16.218 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.x-dev]
+29-May-2020 08:57:16.224 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]
+29-May-2020 08:57:16.900 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]的部署已在[676]毫秒内完成
+29-May-2020 08:57:16.900 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]
+29-May-2020 08:57:16.960 严重 [main] org.apache.catalina.core.StandardContext.startInternal ä¸ä¸ªæå¤ä¸ªlistenerså¯å¨å¤±è´¥ï¼æ´å¤è¯¦ç»ä¿¡æ¯æ¥çå¯¹åºçå®¹å¨æ¥å¿æä»¶
+29-May-2020 08:57:16.961 严重 [main] org.apache.catalina.core.StandardContext.startInternal 由于之前的错误，Context[/examples]启动失败
+29-May-2020 08:57:16.967 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]的部署已在[67]毫秒内完成
+29-May-2020 08:57:16.968 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]
+29-May-2020 08:57:17.053 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]的部署已在[86]毫秒内完成
+29-May-2020 08:57:17.054 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\manager]
+29-May-2020 08:57:17.110 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\manager]的部署已在[56]毫秒内完成
+29-May-2020 08:57:17.110 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\ROOT]
+29-May-2020 08:57:17.145 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\ROOT]的部署已在[35]毫秒内完成
+29-May-2020 08:57:17.148 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+29-May-2020 08:57:17.215 信息 [main] org.apache.catalina.startup.Catalina.start [1,090]毫秒后服务器启动
+29-May-2020 08:59:02.061 信息 [Thread-4] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+29-May-2020 08:59:02.101 信息 [Thread-4] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+29-May-2020 08:59:02.111 信息 [Thread-4] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+29-May-2020 08:59:02.113 信息 [Thread-4] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+29-May-2020 08:59:38.320 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.?????: Apache Tomcat/9.0.x-dev
+29-May-2020 08:59:38.351 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log ?????:        unknown
+29-May-2020 08:59:38.351 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log ??????(:     9.0.x
+29-May-2020 08:59:38.351 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log ??????:      Windows 7
+29-May-2020 08:59:38.351 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.??:           6.1
+29-May-2020 08:59:38.352 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log ??:              amd64
+29-May-2020 08:59:38.352 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java ????:     D:\java\jre
+29-May-2020 08:59:38.352 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java?????:    1.8.0_221-b11
+29-May-2020 08:59:38.352 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.???:        Oracle Corporation
+29-May-2020 08:59:38.352 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\ysstech\workspace_tomcat\code\catalina-home
+29-May-2020 08:59:38.352 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\ysstech\workspace_tomcat\code\catalina-home
+29-May-2020 08:59:38.354 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log ??????-agentlib:jdwp=transport=dt_socket,address=127.0.0.1:65349,suspend=y,server=n
+29-May-2020 08:59:38.354 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log ??????-Dcatalina.home=catalina-home
+29-May-2020 08:59:38.354 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log ??????-Dcatalina.base=catalina-home
+29-May-2020 08:59:38.354 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log ??????-Djava.endorsed.dirs=catalina-home/endorsed
+29-May-2020 08:59:38.354 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log ??????-Djava.io.tmpdir=catalina-home/temp
+29-May-2020 08:59:38.354 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log ??????-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-May-2020 08:59:38.354 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log ??????-Djava.util.logging.config.file=catalina-home/conf/logging.properties
+29-May-2020 08:59:38.354 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log ??????-Dfile.encoding=UTF-8
+29-May-2020 08:59:38.355 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log ??????-javaagent:C:\Users\pc\.IntelliJIdea2019.1\system\captureAgent\debugger-agent.jar
+29-May-2020 08:59:38.355 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent ?java.library.path:[D:\java\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\ysstech\soft\oracle\oracle11\product\11.2.0\dbhome_1\bin;D:\ysstech\soft\oracle\oracle\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\UCRT\;C:\Program Files\Intel\UCRT\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Python\Python36-32\Scripts;D:\Python\xuexi\chromedriver.exe;D:\ysstech\soft\git\bin;C:\Program Files\Git\cmd;D:\ysstech\soft\redis\;D:\ysstech\soft\maven\apache-maven-3.6.1\bin;D:\ysstech\soft\vscode\Microsoft VS Codebin;D:\ysstech\soft\mysql\mysql-5.7.22-winx64\bin;D:\ysstech\soft\vscode\Microsoft VS Code\bin;D:\ysstech\soft\erlang\erl10.4\bin;D:\ysstech\soft\gradle\gradle-5.6.3\bin;D:\ysstech\soft\groovy\groovy-2.5.6\bin;D:\java\bin;D:\ysstech\soft\go\go\bin;.]??????APR?Apache Tomcat????????????????????
+29-May-2020 08:59:38.660 信息 [main] org.apache.coyote.AbstractProtocol.init ???????? ["http-nio-8080"]
+29-May-2020 08:59:38.740 信息 [main] org.apache.catalina.startup.Catalina.load ????[1,206]??????
+29-May-2020 08:59:38.834 信息 [main] org.apache.catalina.core.StandardService.startInternal ??????[Catalina]
+29-May-2020 08:59:38.834 信息 [main] org.apache.catalina.core.StandardEngine.startInternal ???? Servlet ???[Apache Tomcat/9.0.x-dev]
+29-May-2020 08:59:38.841 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory ?web ????????? [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]
+29-May-2020 08:59:39.518 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web??????[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]?????[677]?????
+29-May-2020 08:59:39.518 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory ?web ????????? [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]
+29-May-2020 08:59:39.578 严重 [main] org.apache.catalina.core.StandardContext.startInternal 一个或多个listeners启动失败，更多详细信息查看对应的容器日志文件
+29-May-2020 08:59:39.578 严重 [main] org.apache.catalina.core.StandardContext.startInternal ????????Context[/examples]????
+29-May-2020 08:59:39.584 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web??????[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]?????[65]?????
+29-May-2020 08:59:39.584 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory ?web ????????? [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]
+29-May-2020 08:59:39.671 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web??????[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]?????[87]?????
+29-May-2020 08:59:39.671 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory ?web ????????? [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\manager]
+29-May-2020 08:59:39.732 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web??????[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\manager]?????[61]?????
+29-May-2020 08:59:39.733 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory ?web ????????? [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\ROOT]
+29-May-2020 08:59:39.769 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web??????[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\ROOT]?????[37]?????
+29-May-2020 08:59:39.773 信息 [main] org.apache.coyote.AbstractProtocol.start ????????["http-nio-8080"]
+29-May-2020 08:59:39.820 信息 [main] org.apache.catalina.startup.Catalina.start [1,079]????????
+29-May-2020 09:00:04.507 信息 [Thread-4] org.apache.coyote.AbstractProtocol.pause ??ProtocolHandler["http-nio-8080"]
+29-May-2020 09:00:04.546 信息 [Thread-4] org.apache.catalina.core.StandardService.stopInternal ??????[Catalina]
+29-May-2020 09:00:04.556 信息 [Thread-4] org.apache.coyote.AbstractProtocol.stop ????ProtocolHandler ["http-nio-8080"]
+29-May-2020 09:00:04.561 信息 [Thread-4] org.apache.coyote.AbstractProtocol.destroy ????????? ["http-nio-8080"]
+29-May-2020 09:03:50.378 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.x-dev
+29-May-2020 09:03:50.416 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        unknown
+29-May-2020 09:03:50.416 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.x
+29-May-2020 09:03:50.416 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 7
+29-May-2020 09:03:50.416 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           6.1
+29-May-2020 09:03:50.416 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+29-May-2020 09:03:50.416 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     D:\java\jre
+29-May-2020 09:03:50.416 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_221-b11
+29-May-2020 09:03:50.416 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+29-May-2020 09:03:50.416 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\ysstech\workspace_tomcat\code\catalina-home
+29-May-2020 09:03:50.416 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\ysstech\workspace_tomcat\code\catalina-home
+29-May-2020 09:03:50.419 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-agentlib:jdwp=transport=dt_socket,address=127.0.0.1:49208,suspend=y,server=n
+29-May-2020 09:03:50.419 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=catalina-home
+29-May-2020 09:03:50.420 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=catalina-home
+29-May-2020 09:03:50.420 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.endorsed.dirs=catalina-home/endorsed
+29-May-2020 09:03:50.420 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=catalina-home/temp
+29-May-2020 09:03:50.420 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-May-2020 09:03:50.420 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=catalina-home/conf/logging.properties
+29-May-2020 09:03:50.420 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dfile.encoding=UTF-8
+29-May-2020 09:03:50.420 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-javaagent:C:\Users\pc\.IntelliJIdea2019.1\system\captureAgent\debugger-agent.jar
+29-May-2020 09:03:50.420 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[D:\java\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\ysstech\soft\oracle\oracle11\product\11.2.0\dbhome_1\bin;D:\ysstech\soft\oracle\oracle\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\UCRT\;C:\Program Files\Intel\UCRT\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Python\Python36-32\Scripts;D:\Python\xuexi\chromedriver.exe;D:\ysstech\soft\git\bin;C:\Program Files\Git\cmd;D:\ysstech\soft\redis\;D:\ysstech\soft\maven\apache-maven-3.6.1\bin;D:\ysstech\soft\vscode\Microsoft VS Codebin;D:\ysstech\soft\mysql\mysql-5.7.22-winx64\bin;D:\ysstech\soft\vscode\Microsoft VS Code\bin;D:\ysstech\soft\erlang\erl10.4\bin;D:\ysstech\soft\gradle\gradle-5.6.3\bin;D:\ysstech\soft\groovy\groovy-2.5.6\bin;D:\java\bin;D:\ysstech\soft\go\go\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+29-May-2020 09:03:50.732 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+29-May-2020 09:03:50.810 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[1,113]毫秒内初始化
+29-May-2020 09:03:50.902 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+29-May-2020 09:03:50.903 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.x-dev]
+29-May-2020 09:03:50.912 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]
+29-May-2020 09:03:51.557 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]的部署已在[646]毫秒内完成
+29-May-2020 09:03:51.557 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]
+29-May-2020 09:03:51.619 严重 [main] org.apache.catalina.core.StandardContext.startInternal 一个或多个listeners启动失败，更多详细信息查看对应的容器日志文件
+29-May-2020 09:03:51.619 严重 [main] org.apache.catalina.core.StandardContext.startInternal 由于之前的错误，Context[/examples]启动失败
+29-May-2020 09:03:51.624 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]的部署已在[67]毫秒内完成
+29-May-2020 09:03:51.625 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]
+29-May-2020 09:03:51.712 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]的部署已在[87]毫秒内完成
+29-May-2020 09:03:51.712 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\manager]
+29-May-2020 09:03:51.769 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\manager]的部署已在[57]毫秒内完成
+29-May-2020 09:03:51.770 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\ROOT]
+29-May-2020 09:03:51.804 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\ROOT]的部署已在[34]毫秒内完成
+29-May-2020 09:03:51.808 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+29-May-2020 09:03:51.858 信息 [main] org.apache.catalina.startup.Catalina.start [1,047]毫秒后服务器启动
+29-May-2020 09:06:05.950 信息 [Thread-4] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+29-May-2020 09:06:06.012 信息 [Thread-4] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+29-May-2020 09:06:06.028 信息 [Thread-4] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+29-May-2020 09:06:06.031 信息 [Thread-4] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+29-May-2020 09:06:10.205 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.x-dev
+29-May-2020 09:06:10.207 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        unknown
+29-May-2020 09:06:10.208 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号(:     9.0.x
+29-May-2020 09:06:10.208 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 7
+29-May-2020 09:06:10.208 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           6.1
+29-May-2020 09:06:10.208 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+29-May-2020 09:06:10.208 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     D:\java\jre
+29-May-2020 09:06:10.208 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_221-b11
+29-May-2020 09:06:10.208 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+29-May-2020 09:06:10.208 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\ysstech\workspace_tomcat\code\catalina-home
+29-May-2020 09:06:10.208 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\ysstech\workspace_tomcat\code\catalina-home
+29-May-2020 09:06:10.209 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.home=catalina-home
+29-May-2020 09:06:10.210 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dcatalina.base=catalina-home
+29-May-2020 09:06:10.210 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.endorsed.dirs=catalina-home/endorsed
+29-May-2020 09:06:10.210 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.io.tmpdir=catalina-home/temp
+29-May-2020 09:06:10.210 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+29-May-2020 09:06:10.210 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Djava.util.logging.config.file=catalina-home/conf/logging.properties
+29-May-2020 09:06:10.210 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-Dfile.encoding=UTF-8
+29-May-2020 09:06:10.210 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：-javaagent:D:\ysstech\soft\idea\IntelliJ IDEA 2019.1.3\lib\idea_rt.jar=49414:D:\ysstech\soft\idea\IntelliJ IDEA 2019.1.3\bin
+29-May-2020 09:06:10.210 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 在java.library.path:[D:\java\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\ysstech\soft\oracle\oracle11\product\11.2.0\dbhome_1\bin;D:\ysstech\soft\oracle\oracle\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\UCRT\;C:\Program Files\Intel\UCRT\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Python\Python36-32\Scripts;D:\Python\xuexi\chromedriver.exe;D:\ysstech\soft\git\bin;C:\Program Files\Git\cmd;D:\ysstech\soft\redis\;D:\ysstech\soft\maven\apache-maven-3.6.1\bin;D:\ysstech\soft\vscode\Microsoft VS Codebin;D:\ysstech\soft\mysql\mysql-5.7.22-winx64\bin;D:\ysstech\soft\vscode\Microsoft VS Code\bin;D:\ysstech\soft\erlang\erl10.4\bin;D:\ysstech\soft\gradle\gradle-5.6.3\bin;D:\ysstech\soft\groovy\groovy-2.5.6\bin;D:\java\bin;D:\ysstech\soft\go\go\bin;.]上找不到基于APR的Apache Tomcat本机库，该库允许在生产环境中获得最佳性能
+29-May-2020 09:06:10.448 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+29-May-2020 09:06:10.512 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[443]毫秒内初始化
+29-May-2020 09:06:10.530 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+29-May-2020 09:06:10.530 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.x-dev]
+29-May-2020 09:06:10.536 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]
+29-May-2020 09:06:10.910 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+29-May-2020 09:06:10.930 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]的部署已在[394]毫秒内完成
+29-May-2020 09:06:10.930 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]
+29-May-2020 09:06:11.096 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+29-May-2020 09:06:11.104 严重 [main] org.apache.catalina.core.StandardContext.startInternal 一个或多个listeners启动失败，更多详细信息查看对应的容器日志文件
+29-May-2020 09:06:11.104 严重 [main] org.apache.catalina.core.StandardContext.startInternal 由于之前的错误，Context[/examples]启动失败
+29-May-2020 09:06:11.111 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]的部署已在[181]毫秒内完成
+29-May-2020 09:06:11.111 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]
+29-May-2020 09:06:11.184 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+29-May-2020 09:06:11.189 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]的部署已在[78]毫秒内完成
+29-May-2020 09:06:11.189 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\manager]
+29-May-2020 09:06:11.277 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+29-May-2020 09:06:11.278 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\manager]的部署已在[89]毫秒内完成
+29-May-2020 09:06:11.279 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\ROOT]
+29-May-2020 09:06:11.352 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+29-May-2020 09:06:11.353 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\ROOT]的部署已在[73]毫秒内完成
+29-May-2020 09:06:11.356 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+29-May-2020 09:06:11.364 信息 [main] org.apache.catalina.startup.Catalina.start [851]毫秒后服务器启动

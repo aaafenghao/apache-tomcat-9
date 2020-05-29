@@ -1,0 +1,380 @@
+28-May-2020 08:44:08.135 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.æå¡å¨çæ¬: Apache Tomcat/9.0.x-dev
+28-May-2020 08:44:08.137 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log æå¡å¨æå»º:        unknown
+28-May-2020 08:44:08.138 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log æå¡å¨çæ¬å·(:     9.0.x
+28-May-2020 08:44:08.138 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log æä½ç³»ç»åç§°:      Windows 7
+28-May-2020 08:44:08.138 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.çæ¬:           6.1
+28-May-2020 08:44:08.138 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log æ¶æ:              amd64
+28-May-2020 08:44:08.138 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java ç¯å¢åé:     D:\java\jre
+28-May-2020 08:44:08.138 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Javaèææºçæ¬:    1.8.0_221-b11
+28-May-2020 08:44:08.138 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.ä¾åºå:        Oracle Corporation
+28-May-2020 08:44:08.138 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\ysstech\workspace_tomcat\code\catalina-home
+28-May-2020 08:44:08.138 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\ysstech\workspace_tomcat\code\catalina-home
+28-May-2020 08:44:08.139 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Dcatalina.home=catalina-home
+28-May-2020 08:44:08.139 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Dcatalina.base=catalina-home
+28-May-2020 08:44:08.139 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Djava.endorsed.dirs=catalina-home/endorsed
+28-May-2020 08:44:08.139 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Djava.io.tmpdir=catalina-home/temp
+28-May-2020 08:44:08.139 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-May-2020 08:44:08.139 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Djava.util.logging.config.file=catalina-home/conf/logging.properties
+28-May-2020 08:44:08.139 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-javaagent:D:\ysstech\soft\idea\IntelliJ IDEA 2019.1.3\lib\idea_rt.jar=58674:D:\ysstech\soft\idea\IntelliJ IDEA 2019.1.3\bin
+28-May-2020 08:44:08.140 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Dfile.encoding=UTF-8
+28-May-2020 08:44:08.140 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent å¨java.library.path:[D:\java\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\ysstech\soft\oracle\oracle11\product\11.2.0\dbhome_1\bin;D:\ysstech\soft\oracle\oracle\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\UCRT\;C:\Program Files\Intel\UCRT\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Python\Python36-32\Scripts;D:\Python\xuexi\chromedriver.exe;D:\ysstech\soft\git\bin;C:\Program Files\Git\cmd;D:\ysstech\soft\redis\;D:\ysstech\soft\maven\apache-maven-3.6.1\bin;D:\ysstech\soft\vscode\Microsoft VS Codebin;D:\ysstech\soft\mysql\mysql-5.7.22-winx64\bin;D:\ysstech\soft\vscode\Microsoft VS Code\bin;D:\ysstech\soft\erlang\erl10.4\bin;D:\ysstech\soft\gradle\gradle-5.6.3\bin;D:\ysstech\soft\groovy\groovy-2.5.6\bin;D:\java\bin;D:\ysstech\soft\go\go\bin;.]ä¸æ¾ä¸å°åºäºAPRçApache Tomcatæ¬æºåºï¼è¯¥åºåè®¸å¨çäº§ç¯å¢ä¸­è·å¾æä½³æ§è½
+28-May-2020 08:44:08.452 信息 [main] org.apache.coyote.AbstractProtocol.init åå§ååè®®å¤çå¨ ["http-nio-8080"]
+28-May-2020 08:44:08.526 信息 [main] org.apache.catalina.startup.Catalina.load æå¡å¨å¨[557]æ¯«ç§ååå§å
+28-May-2020 08:44:08.549 信息 [main] org.apache.catalina.core.StandardService.startInternal æ­£å¨å¯å¨æå¡[Catalina]
+28-May-2020 08:44:08.550 信息 [main] org.apache.catalina.core.StandardEngine.startInternal æ­£å¨å¯å¨ Servlet å¼æï¼[Apache Tomcat/9.0.x-dev]
+28-May-2020 08:44:08.558 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory æweb åºç¨ç¨åºé¨ç½²å°ç®å½ [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]
+28-May-2020 08:44:08.812 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webåºç¨ç¨åºç®å½[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]çé¨ç½²å·²å¨[254]æ¯«ç§åå®æ
+28-May-2020 08:44:08.812 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory æweb åºç¨ç¨åºé¨ç½²å°ç®å½ [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]
+28-May-2020 08:44:08.894 严重 [main] org.apache.catalina.core.StandardContext.startInternal ä¸ä¸ªæå¤ä¸ªlistenerså¯å¨å¤±è´¥ï¼æ´å¤è¯¦ç»ä¿¡æ¯æ¥çå¯¹åºçå®¹å¨æ¥å¿æä»¶
+28-May-2020 08:44:08.895 严重 [main] org.apache.catalina.core.StandardContext.startInternal ç±äºä¹åçéè¯¯ï¼Context[/examples]å¯å¨å¤±è´¥
+28-May-2020 08:44:08.904 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webåºç¨ç¨åºç®å½[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]çé¨ç½²å·²å¨[92]æ¯«ç§åå®æ
+28-May-2020 08:44:08.904 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory æweb åºç¨ç¨åºé¨ç½²å°ç®å½ [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]
+28-May-2020 08:44:08.961 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webåºç¨ç¨åºç®å½[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]çé¨ç½²å·²å¨[57]æ¯«ç§åå®æ
+28-May-2020 08:44:08.961 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory æweb åºç¨ç¨åºé¨ç½²å°ç®å½ [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\manager]
+28-May-2020 08:44:09.027 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webåºç¨ç¨åºç®å½[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\manager]çé¨ç½²å·²å¨[66]æ¯«ç§åå®æ
+28-May-2020 08:44:09.028 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory æweb åºç¨ç¨åºé¨ç½²å°ç®å½ [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\ROOT]
+28-May-2020 08:44:09.066 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webåºç¨ç¨åºç®å½[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\ROOT]çé¨ç½²å·²å¨[38]æ¯«ç§åå®æ
+28-May-2020 08:44:09.069 信息 [main] org.apache.coyote.AbstractProtocol.start å¼å§åè®®å¤çå¥æ["http-nio-8080"]
+28-May-2020 08:44:09.076 信息 [main] org.apache.catalina.startup.Catalina.start [549]æ¯«ç§åæå¡å¨å¯å¨
+28-May-2020 08:44:33.392 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.æå¡å¨çæ¬: Apache Tomcat/9.0.x-dev
+28-May-2020 08:44:33.396 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log æå¡å¨æå»º:        unknown
+28-May-2020 08:44:33.396 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log æå¡å¨çæ¬å·(:     9.0.x
+28-May-2020 08:44:33.396 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log æä½ç³»ç»åç§°:      Windows 7
+28-May-2020 08:44:33.396 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.çæ¬:           6.1
+28-May-2020 08:44:33.396 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log æ¶æ:              amd64
+28-May-2020 08:44:33.396 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java ç¯å¢åé:     D:\java\jre
+28-May-2020 08:44:33.396 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Javaèææºçæ¬:    1.8.0_221-b11
+28-May-2020 08:44:33.396 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.ä¾åºå:        Oracle Corporation
+28-May-2020 08:44:33.396 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\ysstech\workspace_tomcat\code\catalina-home
+28-May-2020 08:44:33.396 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\ysstech\workspace_tomcat\code\catalina-home
+28-May-2020 08:44:33.397 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Dcatalina.home=catalina-home
+28-May-2020 08:44:33.397 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Dcatalina.base=catalina-home
+28-May-2020 08:44:33.397 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Djava.endorsed.dirs=catalina-home/endorsed
+28-May-2020 08:44:33.397 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Djava.io.tmpdir=catalina-home/temp
+28-May-2020 08:44:33.397 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-May-2020 08:44:33.398 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Djava.util.logging.config.file=catalina-home/conf/logging.properties
+28-May-2020 08:44:33.398 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-javaagent:D:\ysstech\soft\idea\IntelliJ IDEA 2019.1.3\lib\idea_rt.jar=58724:D:\ysstech\soft\idea\IntelliJ IDEA 2019.1.3\bin
+28-May-2020 08:44:33.398 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Dfile.encoding=UTF-8
+28-May-2020 08:44:33.398 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent å¨java.library.path:[D:\java\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\ysstech\soft\oracle\oracle11\product\11.2.0\dbhome_1\bin;D:\ysstech\soft\oracle\oracle\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\UCRT\;C:\Program Files\Intel\UCRT\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Python\Python36-32\Scripts;D:\Python\xuexi\chromedriver.exe;D:\ysstech\soft\git\bin;C:\Program Files\Git\cmd;D:\ysstech\soft\redis\;D:\ysstech\soft\maven\apache-maven-3.6.1\bin;D:\ysstech\soft\vscode\Microsoft VS Codebin;D:\ysstech\soft\mysql\mysql-5.7.22-winx64\bin;D:\ysstech\soft\vscode\Microsoft VS Code\bin;D:\ysstech\soft\erlang\erl10.4\bin;D:\ysstech\soft\gradle\gradle-5.6.3\bin;D:\ysstech\soft\groovy\groovy-2.5.6\bin;D:\java\bin;D:\ysstech\soft\go\go\bin;.]ä¸æ¾ä¸å°åºäºAPRçApache Tomcatæ¬æºåºï¼è¯¥åºåè®¸å¨çäº§ç¯å¢ä¸­è·å¾æä½³æ§è½
+28-May-2020 08:44:33.663 信息 [main] org.apache.coyote.AbstractProtocol.init åå§ååè®®å¤çå¨ ["http-nio-8080"]
+28-May-2020 08:44:33.742 信息 [main] org.apache.catalina.startup.Catalina.load æå¡å¨å¨[496]æ¯«ç§ååå§å
+28-May-2020 08:44:33.765 信息 [main] org.apache.catalina.core.StandardService.startInternal æ­£å¨å¯å¨æå¡[Catalina]
+28-May-2020 08:44:33.766 信息 [main] org.apache.catalina.core.StandardEngine.startInternal æ­£å¨å¯å¨ Servlet å¼æï¼[Apache Tomcat/9.0.x-dev]
+28-May-2020 08:44:33.773 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory æweb åºç¨ç¨åºé¨ç½²å°ç®å½ [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]
+28-May-2020 08:44:34.010 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webåºç¨ç¨åºç®å½[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]çé¨ç½²å·²å¨[237]æ¯«ç§åå®æ
+28-May-2020 08:44:34.011 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory æweb åºç¨ç¨åºé¨ç½²å°ç®å½ [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]
+28-May-2020 08:44:34.084 严重 [main] org.apache.catalina.core.StandardContext.startInternal ä¸ä¸ªæå¤ä¸ªlistenerså¯å¨å¤±è´¥ï¼æ´å¤è¯¦ç»ä¿¡æ¯æ¥çå¯¹åºçå®¹å¨æ¥å¿æä»¶
+28-May-2020 08:44:34.084 严重 [main] org.apache.catalina.core.StandardContext.startInternal ç±äºä¹åçéè¯¯ï¼Context[/examples]å¯å¨å¤±è´¥
+28-May-2020 08:44:34.091 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webåºç¨ç¨åºç®å½[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]çé¨ç½²å·²å¨[81]æ¯«ç§åå®æ
+28-May-2020 08:44:34.092 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory æweb åºç¨ç¨åºé¨ç½²å°ç®å½ [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]
+28-May-2020 08:44:34.153 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webåºç¨ç¨åºç®å½[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]çé¨ç½²å·²å¨[61]æ¯«ç§åå®æ
+28-May-2020 08:44:34.154 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory æweb åºç¨ç¨åºé¨ç½²å°ç®å½ [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\manager]
+28-May-2020 08:44:34.214 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webåºç¨ç¨åºç®å½[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\manager]çé¨ç½²å·²å¨[60]æ¯«ç§åå®æ
+28-May-2020 08:44:34.214 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory æweb åºç¨ç¨åºé¨ç½²å°ç®å½ [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\ROOT]
+28-May-2020 08:44:34.254 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webåºç¨ç¨åºç®å½[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\ROOT]çé¨ç½²å·²å¨[40]æ¯«ç§åå®æ
+28-May-2020 08:44:34.258 信息 [main] org.apache.coyote.AbstractProtocol.start å¼å§åè®®å¤çå¥æ["http-nio-8080"]
+28-May-2020 08:44:34.264 信息 [main] org.apache.catalina.startup.Catalina.start [521]æ¯«ç§åæå¡å¨å¯å¨
+28-May-2020 08:44:57.219 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.æå¡å¨çæ¬: Apache Tomcat/9.0.x-dev
+28-May-2020 08:44:57.222 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log æå¡å¨æå»º:        unknown
+28-May-2020 08:44:57.222 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log æå¡å¨çæ¬å·(:     9.0.x
+28-May-2020 08:44:57.222 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log æä½ç³»ç»åç§°:      Windows 7
+28-May-2020 08:44:57.222 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.çæ¬:           6.1
+28-May-2020 08:44:57.222 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log æ¶æ:              amd64
+28-May-2020 08:44:57.222 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java ç¯å¢åé:     D:\java\jre
+28-May-2020 08:44:57.222 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Javaèææºçæ¬:    1.8.0_221-b11
+28-May-2020 08:44:57.222 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.ä¾åºå:        Oracle Corporation
+28-May-2020 08:44:57.222 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\ysstech\workspace_tomcat\code\catalina-home
+28-May-2020 08:44:57.222 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\ysstech\workspace_tomcat\code\catalina-home
+28-May-2020 08:44:57.224 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Dcatalina.home=catalina-home
+28-May-2020 08:44:57.224 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Dcatalina.base=catalina-home
+28-May-2020 08:44:57.224 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Djava.endorsed.dirs=catalina-home/endorsed
+28-May-2020 08:44:57.224 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Djava.io.tmpdir=catalina-home/temp
+28-May-2020 08:44:57.224 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-May-2020 08:44:57.224 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Djava.util.logging.config.file=catalina-home/conf/logging.properties
+28-May-2020 08:44:57.224 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-javaagent:D:\ysstech\soft\idea\IntelliJ IDEA 2019.1.3\lib\idea_rt.jar=58769:D:\ysstech\soft\idea\IntelliJ IDEA 2019.1.3\bin
+28-May-2020 08:44:57.224 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Dfile.encoding=UTF-8
+28-May-2020 08:44:57.225 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent å¨java.library.path:[D:\java\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\ysstech\soft\oracle\oracle11\product\11.2.0\dbhome_1\bin;D:\ysstech\soft\oracle\oracle\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\UCRT\;C:\Program Files\Intel\UCRT\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Python\Python36-32\Scripts;D:\Python\xuexi\chromedriver.exe;D:\ysstech\soft\git\bin;C:\Program Files\Git\cmd;D:\ysstech\soft\redis\;D:\ysstech\soft\maven\apache-maven-3.6.1\bin;D:\ysstech\soft\vscode\Microsoft VS Codebin;D:\ysstech\soft\mysql\mysql-5.7.22-winx64\bin;D:\ysstech\soft\vscode\Microsoft VS Code\bin;D:\ysstech\soft\erlang\erl10.4\bin;D:\ysstech\soft\gradle\gradle-5.6.3\bin;D:\ysstech\soft\groovy\groovy-2.5.6\bin;D:\java\bin;D:\ysstech\soft\go\go\bin;.]ä¸æ¾ä¸å°åºäºAPRçApache Tomcatæ¬æºåºï¼è¯¥åºåè®¸å¨çäº§ç¯å¢ä¸­è·å¾æä½³æ§è½
+28-May-2020 08:44:57.506 信息 [main] org.apache.coyote.AbstractProtocol.init åå§ååè®®å¤çå¨ ["http-nio-8080"]
+28-May-2020 08:44:57.573 信息 [main] org.apache.catalina.startup.Catalina.load æå¡å¨å¨[499]æ¯«ç§ååå§å
+28-May-2020 08:44:57.593 信息 [main] org.apache.catalina.core.StandardService.startInternal æ­£å¨å¯å¨æå¡[Catalina]
+28-May-2020 08:44:57.593 信息 [main] org.apache.catalina.core.StandardEngine.startInternal æ­£å¨å¯å¨ Servlet å¼æï¼[Apache Tomcat/9.0.x-dev]
+28-May-2020 08:44:57.600 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory æweb åºç¨ç¨åºé¨ç½²å°ç®å½ [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]
+28-May-2020 08:44:57.848 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webåºç¨ç¨åºç®å½[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]çé¨ç½²å·²å¨[248]æ¯«ç§åå®æ
+28-May-2020 08:44:57.848 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory æweb åºç¨ç¨åºé¨ç½²å°ç®å½ [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]
+28-May-2020 08:44:57.927 严重 [main] org.apache.catalina.core.StandardContext.startInternal ä¸ä¸ªæå¤ä¸ªlistenerså¯å¨å¤±è´¥ï¼æ´å¤è¯¦ç»ä¿¡æ¯æ¥çå¯¹åºçå®¹å¨æ¥å¿æä»¶
+28-May-2020 08:44:57.928 严重 [main] org.apache.catalina.core.StandardContext.startInternal ç±äºä¹åçéè¯¯ï¼Context[/examples]å¯å¨å¤±è´¥
+28-May-2020 08:44:57.935 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webåºç¨ç¨åºç®å½[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]çé¨ç½²å·²å¨[86]æ¯«ç§åå®æ
+28-May-2020 08:44:57.935 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory æweb åºç¨ç¨åºé¨ç½²å°ç®å½ [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]
+28-May-2020 08:44:57.982 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webåºç¨ç¨åºç®å½[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]çé¨ç½²å·²å¨[47]æ¯«ç§åå®æ
+28-May-2020 08:44:57.982 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory æweb åºç¨ç¨åºé¨ç½²å°ç®å½ [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\manager]
+28-May-2020 08:44:58.032 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webåºç¨ç¨åºç®å½[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\manager]çé¨ç½²å·²å¨[50]æ¯«ç§åå®æ
+28-May-2020 08:44:58.033 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory æweb åºç¨ç¨åºé¨ç½²å°ç®å½ [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\ROOT]
+28-May-2020 08:44:58.073 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webåºç¨ç¨åºç®å½[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\ROOT]çé¨ç½²å·²å¨[40]æ¯«ç§åå®æ
+28-May-2020 08:44:58.076 信息 [main] org.apache.coyote.AbstractProtocol.start å¼å§åè®®å¤çå¥æ["http-nio-8080"]
+28-May-2020 08:44:58.083 信息 [main] org.apache.catalina.startup.Catalina.start [509]æ¯«ç§åæå¡å¨å¯å¨
+28-May-2020 08:47:20.776 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.æå¡å¨çæ¬: Apache Tomcat/9.0.x-dev
+28-May-2020 08:47:20.778 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log æå¡å¨æå»º:        unknown
+28-May-2020 08:47:20.778 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log æå¡å¨çæ¬å·(:     9.0.x
+28-May-2020 08:47:20.779 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log æä½ç³»ç»åç§°:      Windows 7
+28-May-2020 08:47:20.779 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.çæ¬:           6.1
+28-May-2020 08:47:20.779 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log æ¶æ:              amd64
+28-May-2020 08:47:20.779 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java ç¯å¢åé:     D:\java\jre
+28-May-2020 08:47:20.779 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Javaèææºçæ¬:    1.8.0_221-b11
+28-May-2020 08:47:20.779 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.ä¾åºå:        Oracle Corporation
+28-May-2020 08:47:20.779 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\ysstech\workspace_tomcat\code\catalina-home
+28-May-2020 08:47:20.779 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\ysstech\workspace_tomcat\code\catalina-home
+28-May-2020 08:47:20.780 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Dcatalina.home=catalina-home
+28-May-2020 08:47:20.780 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Dcatalina.base=catalina-home
+28-May-2020 08:47:20.780 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Djava.endorsed.dirs=catalina-home/endorsed
+28-May-2020 08:47:20.780 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Djava.io.tmpdir=catalina-home/temp
+28-May-2020 08:47:20.780 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-May-2020 08:47:20.780 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Djava.util.logging.config.file=catalina-home/conf/logging.properties
+28-May-2020 08:47:20.780 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-javaagent:D:\ysstech\soft\idea\IntelliJ IDEA 2019.1.3\lib\idea_rt.jar=59134:D:\ysstech\soft\idea\IntelliJ IDEA 2019.1.3\bin
+28-May-2020 08:47:20.780 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Dfile.encoding=UTF-8
+28-May-2020 08:47:20.781 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent å¨java.library.path:[D:\java\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\ysstech\soft\oracle\oracle11\product\11.2.0\dbhome_1\bin;D:\ysstech\soft\oracle\oracle\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\UCRT\;C:\Program Files\Intel\UCRT\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Python\Python36-32\Scripts;D:\Python\xuexi\chromedriver.exe;D:\ysstech\soft\git\bin;C:\Program Files\Git\cmd;D:\ysstech\soft\redis\;D:\ysstech\soft\maven\apache-maven-3.6.1\bin;D:\ysstech\soft\vscode\Microsoft VS Codebin;D:\ysstech\soft\mysql\mysql-5.7.22-winx64\bin;D:\ysstech\soft\vscode\Microsoft VS Code\bin;D:\ysstech\soft\erlang\erl10.4\bin;D:\ysstech\soft\gradle\gradle-5.6.3\bin;D:\ysstech\soft\groovy\groovy-2.5.6\bin;D:\java\bin;D:\ysstech\soft\go\go\bin;.]ä¸æ¾ä¸å°åºäºAPRçApache Tomcatæ¬æºåºï¼è¯¥åºåè®¸å¨çäº§ç¯å¢ä¸­è·å¾æä½³æ§è½
+28-May-2020 08:47:21.036 信息 [main] org.apache.coyote.AbstractProtocol.init åå§ååè®®å¤çå¨ ["http-nio-8080"]
+28-May-2020 08:47:21.105 信息 [main] org.apache.catalina.startup.Catalina.load æå¡å¨å¨[474]æ¯«ç§ååå§å
+28-May-2020 08:47:21.126 信息 [main] org.apache.catalina.core.StandardService.startInternal æ­£å¨å¯å¨æå¡[Catalina]
+28-May-2020 08:47:21.126 信息 [main] org.apache.catalina.core.StandardEngine.startInternal æ­£å¨å¯å¨ Servlet å¼æï¼[Apache Tomcat/9.0.x-dev]
+28-May-2020 08:47:21.134 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory æweb åºç¨ç¨åºé¨ç½²å°ç®å½ [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]
+28-May-2020 08:47:21.384 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webåºç¨ç¨åºç®å½[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]çé¨ç½²å·²å¨[251]æ¯«ç§åå®æ
+28-May-2020 08:47:21.384 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory æweb åºç¨ç¨åºé¨ç½²å°ç®å½ [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]
+28-May-2020 08:47:21.461 严重 [main] org.apache.catalina.core.StandardContext.startInternal ä¸ä¸ªæå¤ä¸ªlistenerså¯å¨å¤±è´¥ï¼æ´å¤è¯¦ç»ä¿¡æ¯æ¥çå¯¹åºçå®¹å¨æ¥å¿æä»¶
+28-May-2020 08:47:21.462 严重 [main] org.apache.catalina.core.StandardContext.startInternal ç±äºä¹åçéè¯¯ï¼Context[/examples]å¯å¨å¤±è´¥
+28-May-2020 08:47:21.469 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webåºç¨ç¨åºç®å½[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]çé¨ç½²å·²å¨[85]æ¯«ç§åå®æ
+28-May-2020 08:47:21.469 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory æweb åºç¨ç¨åºé¨ç½²å°ç®å½ [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]
+28-May-2020 08:47:21.525 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webåºç¨ç¨åºç®å½[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]çé¨ç½²å·²å¨[56]æ¯«ç§åå®æ
+28-May-2020 08:47:21.525 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory æweb åºç¨ç¨åºé¨ç½²å°ç®å½ [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\manager]
+28-May-2020 08:47:21.565 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webåºç¨ç¨åºç®å½[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\manager]çé¨ç½²å·²å¨[40]æ¯«ç§åå®æ
+28-May-2020 08:47:21.565 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory æweb åºç¨ç¨åºé¨ç½²å°ç®å½ [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\ROOT]
+28-May-2020 08:47:21.599 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webåºç¨ç¨åºç®å½[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\ROOT]çé¨ç½²å·²å¨[33]æ¯«ç§åå®æ
+28-May-2020 08:47:21.602 信息 [main] org.apache.coyote.AbstractProtocol.start å¼å§åè®®å¤çå¥æ["http-nio-8080"]
+28-May-2020 08:47:21.608 信息 [main] org.apache.catalina.startup.Catalina.start [503]æ¯«ç§åæå¡å¨å¯å¨
+28-May-2020 08:55:34.563 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.æå¡å¨çæ¬: Apache Tomcat/9.0.x-dev
+28-May-2020 08:55:34.565 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log æå¡å¨æå»º:        unknown
+28-May-2020 08:55:34.565 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log æå¡å¨çæ¬å·(:     9.0.x
+28-May-2020 08:55:34.566 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log æä½ç³»ç»åç§°:      Windows 7
+28-May-2020 08:55:34.566 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.çæ¬:           6.1
+28-May-2020 08:55:34.566 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log æ¶æ:              amd64
+28-May-2020 08:55:34.566 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java ç¯å¢åé:     D:\java\jre
+28-May-2020 08:55:34.566 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Javaèææºçæ¬:    1.8.0_221-b11
+28-May-2020 08:55:34.566 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.ä¾åºå:        Oracle Corporation
+28-May-2020 08:55:34.566 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\ysstech\workspace_tomcat\code\catalina-home
+28-May-2020 08:55:34.566 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\ysstech\workspace_tomcat\code\catalina-home
+28-May-2020 08:55:34.567 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Dcatalina.home=catalina-home
+28-May-2020 08:55:34.567 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Dcatalina.base=catalina-home
+28-May-2020 08:55:34.567 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Djava.endorsed.dirs=catalina-home/endorsed
+28-May-2020 08:55:34.568 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Djava.io.tmpdir=catalina-home/temp
+28-May-2020 08:55:34.568 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-May-2020 08:55:34.568 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Djava.util.logging.config.file=catalina-home/conf/logging.properties
+28-May-2020 08:55:34.568 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-javaagent:D:\ysstech\soft\idea\IntelliJ IDEA 2019.1.3\lib\idea_rt.jar=60304:D:\ysstech\soft\idea\IntelliJ IDEA 2019.1.3\bin
+28-May-2020 08:55:34.568 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Dfile.encoding=UTF-8
+28-May-2020 08:55:34.568 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent å¨java.library.path:[D:\java\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\ysstech\soft\oracle\oracle11\product\11.2.0\dbhome_1\bin;D:\ysstech\soft\oracle\oracle\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\UCRT\;C:\Program Files\Intel\UCRT\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Python\Python36-32\Scripts;D:\Python\xuexi\chromedriver.exe;D:\ysstech\soft\git\bin;C:\Program Files\Git\cmd;D:\ysstech\soft\redis\;D:\ysstech\soft\maven\apache-maven-3.6.1\bin;D:\ysstech\soft\vscode\Microsoft VS Codebin;D:\ysstech\soft\mysql\mysql-5.7.22-winx64\bin;D:\ysstech\soft\vscode\Microsoft VS Code\bin;D:\ysstech\soft\erlang\erl10.4\bin;D:\ysstech\soft\gradle\gradle-5.6.3\bin;D:\ysstech\soft\groovy\groovy-2.5.6\bin;D:\java\bin;D:\ysstech\soft\go\go\bin;.]ä¸æ¾ä¸å°åºäºAPRçApache Tomcatæ¬æºåºï¼è¯¥åºåè®¸å¨çäº§ç¯å¢ä¸­è·å¾æä½³æ§è½
+28-May-2020 08:55:34.829 信息 [main] org.apache.coyote.AbstractProtocol.init åå§ååè®®å¤çå¨ ["http-nio-8080"]
+28-May-2020 08:55:34.904 信息 [main] org.apache.catalina.startup.Catalina.load æå¡å¨å¨[493]æ¯«ç§ååå§å
+28-May-2020 08:55:34.926 信息 [main] org.apache.catalina.core.StandardService.startInternal æ­£å¨å¯å¨æå¡[Catalina]
+28-May-2020 08:55:34.927 信息 [main] org.apache.catalina.core.StandardEngine.startInternal æ­£å¨å¯å¨ Servlet å¼æï¼[Apache Tomcat/9.0.x-dev]
+28-May-2020 08:55:34.933 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory æweb åºç¨ç¨åºé¨ç½²å°ç®å½ [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]
+28-May-2020 08:55:35.206 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webåºç¨ç¨åºç®å½[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]çé¨ç½²å·²å¨[273]æ¯«ç§åå®æ
+28-May-2020 08:55:35.206 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory æweb åºç¨ç¨åºé¨ç½²å°ç®å½ [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]
+28-May-2020 08:55:35.301 严重 [main] org.apache.catalina.core.StandardContext.startInternal ä¸ä¸ªæå¤ä¸ªlistenerså¯å¨å¤±è´¥ï¼æ´å¤è¯¦ç»ä¿¡æ¯æ¥çå¯¹åºçå®¹å¨æ¥å¿æä»¶
+28-May-2020 08:55:35.301 严重 [main] org.apache.catalina.core.StandardContext.startInternal ç±äºä¹åçéè¯¯ï¼Context[/examples]å¯å¨å¤±è´¥
+28-May-2020 08:55:35.307 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webåºç¨ç¨åºç®å½[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]çé¨ç½²å·²å¨[101]æ¯«ç§åå®æ
+28-May-2020 08:55:35.308 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory æweb åºç¨ç¨åºé¨ç½²å°ç®å½ [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]
+28-May-2020 08:55:35.352 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webåºç¨ç¨åºç®å½[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]çé¨ç½²å·²å¨[44]æ¯«ç§åå®æ
+28-May-2020 08:55:35.352 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory æweb åºç¨ç¨åºé¨ç½²å°ç®å½ [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\manager]
+28-May-2020 08:55:35.398 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webåºç¨ç¨åºç®å½[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\manager]çé¨ç½²å·²å¨[46]æ¯«ç§åå®æ
+28-May-2020 08:55:35.399 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory æweb åºç¨ç¨åºé¨ç½²å°ç®å½ [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\ROOT]
+28-May-2020 08:55:35.434 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webåºç¨ç¨åºç®å½[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\ROOT]çé¨ç½²å·²å¨[35]æ¯«ç§åå®æ
+28-May-2020 08:55:35.437 信息 [main] org.apache.coyote.AbstractProtocol.start å¼å§åè®®å¤çå¥æ["http-nio-8080"]
+28-May-2020 08:55:35.442 信息 [main] org.apache.catalina.startup.Catalina.start [538]æ¯«ç§åæå¡å¨å¯å¨
+28-May-2020 08:56:55.939 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.æå¡å¨çæ¬: Apache Tomcat/9.0.x-dev
+28-May-2020 08:56:55.941 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log æå¡å¨æå»º:        unknown
+28-May-2020 08:56:55.941 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log æå¡å¨çæ¬å·(:     9.0.x
+28-May-2020 08:56:55.941 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log æä½ç³»ç»åç§°:      Windows 7
+28-May-2020 08:56:55.942 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.çæ¬:           6.1
+28-May-2020 08:56:55.942 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log æ¶æ:              amd64
+28-May-2020 08:56:55.942 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java ç¯å¢åé:     D:\java\jre
+28-May-2020 08:56:55.942 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Javaèææºçæ¬:    1.8.0_221-b11
+28-May-2020 08:56:55.942 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.ä¾åºå:        Oracle Corporation
+28-May-2020 08:56:55.942 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\ysstech\workspace_tomcat\code\catalina-home
+28-May-2020 08:56:55.942 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\ysstech\workspace_tomcat\code\catalina-home
+28-May-2020 08:56:55.943 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Dcatalina.home=catalina-home
+28-May-2020 08:56:55.943 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Dcatalina.base=catalina-home
+28-May-2020 08:56:55.943 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Djava.endorsed.dirs=catalina-home/endorsed
+28-May-2020 08:56:55.943 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Djava.io.tmpdir=catalina-home/temp
+28-May-2020 08:56:55.943 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-May-2020 08:56:55.943 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Djava.util.logging.config.file=catalina-home/conf/logging.properties
+28-May-2020 08:56:55.943 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Dfile.encoding=UTF-8
+28-May-2020 08:56:55.943 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-javaagent:D:\ysstech\soft\idea\IntelliJ IDEA 2019.1.3\lib\idea_rt.jar=60454:D:\ysstech\soft\idea\IntelliJ IDEA 2019.1.3\bin
+28-May-2020 08:56:55.943 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent å¨java.library.path:[D:\java\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\ysstech\soft\oracle\oracle11\product\11.2.0\dbhome_1\bin;D:\ysstech\soft\oracle\oracle\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\UCRT\;C:\Program Files\Intel\UCRT\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Python\Python36-32\Scripts;D:\Python\xuexi\chromedriver.exe;D:\ysstech\soft\git\bin;C:\Program Files\Git\cmd;D:\ysstech\soft\redis\;D:\ysstech\soft\maven\apache-maven-3.6.1\bin;D:\ysstech\soft\vscode\Microsoft VS Codebin;D:\ysstech\soft\mysql\mysql-5.7.22-winx64\bin;D:\ysstech\soft\vscode\Microsoft VS Code\bin;D:\ysstech\soft\erlang\erl10.4\bin;D:\ysstech\soft\gradle\gradle-5.6.3\bin;D:\ysstech\soft\groovy\groovy-2.5.6\bin;D:\java\bin;D:\ysstech\soft\go\go\bin;.]ä¸æ¾ä¸å°åºäºAPRçApache Tomcatæ¬æºåºï¼è¯¥åºåè®¸å¨çäº§ç¯å¢ä¸­è·å¾æä½³æ§è½
+28-May-2020 08:56:56.213 信息 [main] org.apache.coyote.AbstractProtocol.init åå§ååè®®å¤çå¨ ["http-nio-8080"]
+28-May-2020 08:56:56.301 信息 [main] org.apache.catalina.startup.Catalina.load æå¡å¨å¨[500]æ¯«ç§ååå§å
+28-May-2020 08:56:56.328 信息 [main] org.apache.catalina.core.StandardService.startInternal æ­£å¨å¯å¨æå¡[Catalina]
+28-May-2020 08:56:56.329 信息 [main] org.apache.catalina.core.StandardEngine.startInternal æ­£å¨å¯å¨ Servlet å¼æï¼[Apache Tomcat/9.0.x-dev]
+28-May-2020 08:56:56.336 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory æweb åºç¨ç¨åºé¨ç½²å°ç®å½ [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]
+28-May-2020 08:56:56.609 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webåºç¨ç¨åºç®å½[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]çé¨ç½²å·²å¨[273]æ¯«ç§åå®æ
+28-May-2020 08:56:56.609 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory æweb åºç¨ç¨åºé¨ç½²å°ç®å½ [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]
+28-May-2020 08:56:56.674 严重 [main] org.apache.catalina.core.StandardContext.startInternal ä¸ä¸ªæå¤ä¸ªlistenerså¯å¨å¤±è´¥ï¼æ´å¤è¯¦ç»ä¿¡æ¯æ¥çå¯¹åºçå®¹å¨æ¥å¿æä»¶
+28-May-2020 08:56:56.674 严重 [main] org.apache.catalina.core.StandardContext.startInternal ç±äºä¹åçéè¯¯ï¼Context[/examples]å¯å¨å¤±è´¥
+28-May-2020 08:56:56.679 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webåºç¨ç¨åºç®å½[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]çé¨ç½²å·²å¨[70]æ¯«ç§åå®æ
+28-May-2020 08:56:56.679 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory æweb åºç¨ç¨åºé¨ç½²å°ç®å½ [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]
+28-May-2020 08:56:56.725 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webåºç¨ç¨åºç®å½[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]çé¨ç½²å·²å¨[46]æ¯«ç§åå®æ
+28-May-2020 08:56:56.725 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory æweb åºç¨ç¨åºé¨ç½²å°ç®å½ [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\manager]
+28-May-2020 08:56:56.777 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webåºç¨ç¨åºç®å½[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\manager]çé¨ç½²å·²å¨[52]æ¯«ç§åå®æ
+28-May-2020 08:56:56.777 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory æweb åºç¨ç¨åºé¨ç½²å°ç®å½ [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\ROOT]
+28-May-2020 08:56:56.817 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webåºç¨ç¨åºç®å½[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\ROOT]çé¨ç½²å·²å¨[40]æ¯«ç§åå®æ
+28-May-2020 08:56:56.820 信息 [main] org.apache.coyote.AbstractProtocol.start å¼å§åè®®å¤çå¥æ["http-nio-8080"]
+28-May-2020 08:56:56.827 信息 [main] org.apache.catalina.startup.Catalina.start [525]æ¯«ç§åæå¡å¨å¯å¨
+28-May-2020 08:58:50.239 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.æå¡å¨çæ¬: Apache Tomcat/9.0.x-dev
+28-May-2020 08:58:50.242 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log æå¡å¨æå»º:        unknown
+28-May-2020 08:58:50.242 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log æå¡å¨çæ¬å·(:     9.0.x
+28-May-2020 08:58:50.243 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log æä½ç³»ç»åç§°:      Windows 7
+28-May-2020 08:58:50.243 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.çæ¬:           6.1
+28-May-2020 08:58:50.243 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log æ¶æ:              amd64
+28-May-2020 08:58:50.243 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java ç¯å¢åé:     D:\java\jre
+28-May-2020 08:58:50.243 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Javaèææºçæ¬:    1.8.0_221-b11
+28-May-2020 08:58:50.243 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.ä¾åºå:        Oracle Corporation
+28-May-2020 08:58:50.243 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\ysstech\workspace_tomcat\code\catalina-home
+28-May-2020 08:58:50.243 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\ysstech\workspace_tomcat\code\catalina-home
+28-May-2020 08:58:50.245 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Dcatalina.home=catalina-home
+28-May-2020 08:58:50.245 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Dcatalina.base=catalina-home
+28-May-2020 08:58:50.245 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Djava.endorsed.dirs=catalina-home/endorsed
+28-May-2020 08:58:50.245 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Djava.io.tmpdir=catalina-home/temp
+28-May-2020 08:58:50.245 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-May-2020 08:58:50.245 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Djava.util.logging.config.file=catalina-home/conf/logging.properties
+28-May-2020 08:58:50.245 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Dfile.encoding=UTF-8
+28-May-2020 08:58:50.245 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-javaagent:D:\ysstech\soft\idea\IntelliJ IDEA 2019.1.3\lib\idea_rt.jar=60710:D:\ysstech\soft\idea\IntelliJ IDEA 2019.1.3\bin
+28-May-2020 08:58:50.245 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent å¨java.library.path:[D:\java\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\ysstech\soft\oracle\oracle11\product\11.2.0\dbhome_1\bin;D:\ysstech\soft\oracle\oracle\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\UCRT\;C:\Program Files\Intel\UCRT\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Python\Python36-32\Scripts;D:\Python\xuexi\chromedriver.exe;D:\ysstech\soft\git\bin;C:\Program Files\Git\cmd;D:\ysstech\soft\redis\;D:\ysstech\soft\maven\apache-maven-3.6.1\bin;D:\ysstech\soft\vscode\Microsoft VS Codebin;D:\ysstech\soft\mysql\mysql-5.7.22-winx64\bin;D:\ysstech\soft\vscode\Microsoft VS Code\bin;D:\ysstech\soft\erlang\erl10.4\bin;D:\ysstech\soft\gradle\gradle-5.6.3\bin;D:\ysstech\soft\groovy\groovy-2.5.6\bin;D:\java\bin;D:\ysstech\soft\go\go\bin;.]ä¸æ¾ä¸å°åºäºAPRçApache Tomcatæ¬æºåºï¼è¯¥åºåè®¸å¨çäº§ç¯å¢ä¸­è·å¾æä½³æ§è½
+28-May-2020 08:58:50.513 信息 [main] org.apache.coyote.AbstractProtocol.init åå§ååè®®å¤çå¨ ["http-nio-8080"]
+28-May-2020 08:58:50.615 信息 [main] org.apache.catalina.startup.Catalina.load æå¡å¨å¨[553]æ¯«ç§ååå§å
+28-May-2020 08:58:50.641 信息 [main] org.apache.catalina.core.StandardService.startInternal æ­£å¨å¯å¨æå¡[Catalina]
+28-May-2020 08:58:50.641 信息 [main] org.apache.catalina.core.StandardEngine.startInternal æ­£å¨å¯å¨ Servlet å¼æï¼[Apache Tomcat/9.0.x-dev]
+28-May-2020 08:58:50.650 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory æweb åºç¨ç¨åºé¨ç½²å°ç®å½ [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]
+28-May-2020 08:58:50.929 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webåºç¨ç¨åºç®å½[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]çé¨ç½²å·²å¨[279]æ¯«ç§åå®æ
+28-May-2020 08:58:50.929 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory æweb åºç¨ç¨åºé¨ç½²å°ç®å½ [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]
+28-May-2020 08:58:51.011 严重 [main] org.apache.catalina.core.StandardContext.startInternal ä¸ä¸ªæå¤ä¸ªlistenerså¯å¨å¤±è´¥ï¼æ´å¤è¯¦ç»ä¿¡æ¯æ¥çå¯¹åºçå®¹å¨æ¥å¿æä»¶
+28-May-2020 08:58:51.012 严重 [main] org.apache.catalina.core.StandardContext.startInternal ç±äºä¹åçéè¯¯ï¼Context[/examples]å¯å¨å¤±è´¥
+28-May-2020 08:58:51.020 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webåºç¨ç¨åºç®å½[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]çé¨ç½²å·²å¨[91]æ¯«ç§åå®æ
+28-May-2020 08:58:51.021 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory æweb åºç¨ç¨åºé¨ç½²å°ç®å½ [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]
+28-May-2020 08:58:51.079 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webåºç¨ç¨åºç®å½[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]çé¨ç½²å·²å¨[58]æ¯«ç§åå®æ
+28-May-2020 08:58:51.079 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory æweb åºç¨ç¨åºé¨ç½²å°ç®å½ [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\manager]
+28-May-2020 08:58:51.134 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webåºç¨ç¨åºç®å½[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\manager]çé¨ç½²å·²å¨[55]æ¯«ç§åå®æ
+28-May-2020 08:58:51.134 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory æweb åºç¨ç¨åºé¨ç½²å°ç®å½ [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\ROOT]
+28-May-2020 08:58:51.175 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webåºç¨ç¨åºç®å½[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\ROOT]çé¨ç½²å·²å¨[41]æ¯«ç§åå®æ
+28-May-2020 08:58:51.178 信息 [main] org.apache.coyote.AbstractProtocol.start å¼å§åè®®å¤çå¥æ["http-nio-8080"]
+28-May-2020 08:58:51.186 信息 [main] org.apache.catalina.startup.Catalina.start [571]æ¯«ç§åæå¡å¨å¯å¨
+28-May-2020 08:59:52.887 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log Server.????????��??????: Apache Tomcat/9.0.x-dev
+28-May-2020 08:59:52.891 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log ????????��??????:        unknown
+28-May-2020 08:59:52.891 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log ????????��????????��(:     9.0.x
+28-May-2020 08:59:52.891 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log ????????????????���:      Windows 7
+28-May-2020 08:59:52.891 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log OS.??????:           6.1
+28-May-2020 08:59:52.891 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log ??????:              amd64
+28-May-2020 08:59:52.891 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log Java ?????????��??:     D:\java\jre
+28-May-2020 08:59:52.891 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log Java��??????????????:    1.8.0_221-b11
+28-May-2020 08:59:52.891 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.?????????:        Oracle Corporation
+28-May-2020 08:59:52.892 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\ysstech\workspace_tomcat\code\catalina-home
+28-May-2020 08:59:52.892 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\ysstech\workspace_tomcat\code\catalina-home
+28-May-2020 08:59:52.892 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log ?????�訨???????��???-Dcatalina.home=catalina-home
+28-May-2020 08:59:52.893 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log ?????�訨???????��???-Dcatalina.base=catalina-home
+28-May-2020 08:59:52.893 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log ?????�訨???????��???-Djava.endorsed.dirs=catalina-home/endorsed
+28-May-2020 08:59:52.893 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log ?????�訨???????��???-Djava.io.tmpdir=catalina-home/temp
+28-May-2020 08:59:52.893 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log ?????�訨???????��???-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-May-2020 08:59:52.893 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log ?????�訨???????��???-Djava.util.logging.config.file=catalina-home/conf/logging.properties
+28-May-2020 08:59:52.893 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log ?????�訨???????��???-Dfile.encoding=UTF-8
+28-May-2020 08:59:52.893 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log ?????�訨???????��???-javaagent:D:\ysstech\soft\idea\IntelliJ IDEA 2019.1.3\lib\idea_rt.jar=60816:D:\ysstech\soft\idea\IntelliJ IDEA 2019.1.3\bin
+28-May-2020 08:59:52.893 ��Ϣ [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent ??��java.library.path:[D:\java\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\ysstech\soft\oracle\oracle11\product\11.2.0\dbhome_1\bin;D:\ysstech\soft\oracle\oracle\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\UCRT\;C:\Program Files\Intel\UCRT\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Python\Python36-32\Scripts;D:\Python\xuexi\chromedriver.exe;D:\ysstech\soft\git\bin;C:\Program Files\Git\cmd;D:\ysstech\soft\redis\;D:\ysstech\soft\maven\apache-maven-3.6.1\bin;D:\ysstech\soft\vscode\Microsoft VS Codebin;D:\ysstech\soft\mysql\mysql-5.7.22-winx64\bin;D:\ysstech\soft\vscode\Microsoft VS Code\bin;D:\ysstech\soft\erlang\erl10.4\bin;D:\ysstech\soft\gradle\gradle-5.6.3\bin;D:\ysstech\soft\groovy\groovy-2.5.6\bin;D:\java\bin;D:\ysstech\soft\go\go\bin;.]???????????��??????APR???Apache Tomcat????????????��????????��????��?????��?????????��?��???????????�쨨??
+28-May-2020 08:59:53.151 ��Ϣ [main] org.apache.coyote.AbstractProtocol.init ????��???????��???��??????�� ["http-nio-8080"]
+28-May-2020 08:59:53.227 ��Ϣ [main] org.apache.catalina.startup.Catalina.load ????????��??��[510]????��????????��????
+28-May-2020 08:59:53.250 ��Ϣ [main] org.apache.catalina.core.StandardService.startInternal ?????��?????��??????[Catalina]
+28-May-2020 08:59:53.252 ��Ϣ [main] org.apache.catalina.core.StandardEngine.startInternal ?????��?????�� Servlet ?????????[Apache Tomcat/9.0.x-dev]
+28-May-2020 08:59:53.260 ��Ϣ [main] org.apache.catalina.startup.HostConfig.deployDirectory ???web ?????��?��????��?��?????��?????? [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]
+28-May-2020 08:59:53.505 ��Ϣ [main] org.apache.catalina.startup.HostConfig.deployDirectory Web?????��?��??????????[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]???��?��????��???��[246]????��??????????
+28-May-2020 08:59:53.506 ��Ϣ [main] org.apache.catalina.startup.HostConfig.deployDirectory ???web ?????��?��????��?��?????��?????? [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]
+28-May-2020 08:59:53.586 ���� [main] org.apache.catalina.core.StandardContext.startInternal ??????????��????listeners?????��?�����?????????��?��???????????????????????????????��????????????
+28-May-2020 08:59:53.586 ���� [main] org.apache.catalina.core.StandardContext.startInternal ??��????????????��??��?????Context[/examples]?????��?�����??
+28-May-2020 08:59:53.596 ��Ϣ [main] org.apache.catalina.startup.HostConfig.deployDirectory Web?????��?��??????????[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]???��?��????��???��[90]????��??????????
+28-May-2020 08:59:53.596 ��Ϣ [main] org.apache.catalina.startup.HostConfig.deployDirectory ???web ?????��?��????��?��?????��?????? [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]
+28-May-2020 08:59:53.648 ��Ϣ [main] org.apache.catalina.startup.HostConfig.deployDirectory Web?????��?��??????????[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]???��?��????��???��[52]????��??????????
+28-May-2020 08:59:53.648 ��Ϣ [main] org.apache.catalina.startup.HostConfig.deployDirectory ???web ?????��?��????��?��?????��?????? [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\manager]
+28-May-2020 08:59:53.696 ��Ϣ [main] org.apache.catalina.startup.HostConfig.deployDirectory Web?????��?��??????????[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\manager]???��?��????��???��[48]????��??????????
+28-May-2020 08:59:53.696 ��Ϣ [main] org.apache.catalina.startup.HostConfig.deployDirectory ???web ?????��?��????��?��?????��?????? [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\ROOT]
+28-May-2020 08:59:53.734 ��Ϣ [main] org.apache.catalina.startup.HostConfig.deployDirectory Web?????��?��??????????[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\ROOT]???��?��????��???��[38]????��??????????
+28-May-2020 08:59:53.737 ��Ϣ [main] org.apache.coyote.AbstractProtocol.start ????��????��???��??????????["http-nio-8080"]
+28-May-2020 08:59:53.745 ��Ϣ [main] org.apache.catalina.startup.Catalina.start [517]????��????????????��?????��
+28-May-2020 09:01:11.975 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.æå¡å¨çæ¬: Apache Tomcat/9.0.x-dev
+28-May-2020 09:01:11.978 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log æå¡å¨æå»º:        unknown
+28-May-2020 09:01:11.978 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log æå¡å¨çæ¬å·(:     9.0.x
+28-May-2020 09:01:11.978 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log æä½ç³»ç»åç§°:      Windows 7
+28-May-2020 09:01:11.978 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.çæ¬:           6.1
+28-May-2020 09:01:11.978 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log æ¶æ:              amd64
+28-May-2020 09:01:11.978 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java ç¯å¢åé:     D:\java\jre
+28-May-2020 09:01:11.978 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Javaèææºçæ¬:    1.8.0_221-b11
+28-May-2020 09:01:11.978 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.ä¾åºå:        Oracle Corporation
+28-May-2020 09:01:11.978 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\ysstech\workspace_tomcat\code\catalina-home
+28-May-2020 09:01:11.979 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\ysstech\workspace_tomcat\code\catalina-home
+28-May-2020 09:01:11.979 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Dcatalina.home=catalina-home
+28-May-2020 09:01:11.979 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Dcatalina.base=catalina-home
+28-May-2020 09:01:11.979 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Djava.endorsed.dirs=catalina-home/endorsed
+28-May-2020 09:01:11.980 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Djava.io.tmpdir=catalina-home/temp
+28-May-2020 09:01:11.980 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-May-2020 09:01:11.980 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Djava.util.logging.config.file=catalina-home/conf/logging.properties
+28-May-2020 09:01:11.980 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-Dfile.encoding=UTF-8
+28-May-2020 09:01:11.980 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log å½ä»¤è¡åæ°ï¼-javaagent:D:\ysstech\soft\idea\IntelliJ IDEA 2019.1.3\lib\idea_rt.jar=60954:D:\ysstech\soft\idea\IntelliJ IDEA 2019.1.3\bin
+28-May-2020 09:01:11.980 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent å¨java.library.path:[D:\java\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\ysstech\soft\oracle\oracle11\product\11.2.0\dbhome_1\bin;D:\ysstech\soft\oracle\oracle\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\UCRT\;C:\Program Files\Intel\UCRT\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Python\Python36-32\Scripts;D:\Python\xuexi\chromedriver.exe;D:\ysstech\soft\git\bin;C:\Program Files\Git\cmd;D:\ysstech\soft\redis\;D:\ysstech\soft\maven\apache-maven-3.6.1\bin;D:\ysstech\soft\vscode\Microsoft VS Codebin;D:\ysstech\soft\mysql\mysql-5.7.22-winx64\bin;D:\ysstech\soft\vscode\Microsoft VS Code\bin;D:\ysstech\soft\erlang\erl10.4\bin;D:\ysstech\soft\gradle\gradle-5.6.3\bin;D:\ysstech\soft\groovy\groovy-2.5.6\bin;D:\java\bin;D:\ysstech\soft\go\go\bin;.]ä¸æ¾ä¸å°åºäºAPRçApache Tomcatæ¬æºåºï¼è¯¥åºåè®¸å¨çäº§ç¯å¢ä¸­è·å¾æä½³æ§è½
+28-May-2020 09:01:12.230 信息 [main] org.apache.coyote.AbstractProtocol.init åå§ååè®®å¤çå¨ ["http-nio-8080"]
+28-May-2020 09:01:12.302 信息 [main] org.apache.catalina.startup.Catalina.load æå¡å¨å¨[473]æ¯«ç§ååå§å
+28-May-2020 09:01:12.322 信息 [main] org.apache.catalina.core.StandardService.startInternal æ­£å¨å¯å¨æå¡[Catalina]
+28-May-2020 09:01:12.323 信息 [main] org.apache.catalina.core.StandardEngine.startInternal æ­£å¨å¯å¨ Servlet å¼æï¼[Apache Tomcat/9.0.x-dev]
+28-May-2020 09:01:12.329 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory æweb åºç¨ç¨åºé¨ç½²å°ç®å½ [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]
+28-May-2020 09:01:12.574 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webåºç¨ç¨åºç®å½[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]çé¨ç½²å·²å¨[245]æ¯«ç§åå®æ
+28-May-2020 09:01:12.575 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory æweb åºç¨ç¨åºé¨ç½²å°ç®å½ [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]
+28-May-2020 09:01:12.656 严重 [main] org.apache.catalina.core.StandardContext.startInternal ä¸ä¸ªæå¤ä¸ªlistenerså¯å¨å¤±è´¥ï¼æ´å¤è¯¦ç»ä¿¡æ¯æ¥çå¯¹åºçå®¹å¨æ¥å¿æä»¶
+28-May-2020 09:01:12.656 严重 [main] org.apache.catalina.core.StandardContext.startInternal ç±äºä¹åçéè¯¯ï¼Context[/examples]å¯å¨å¤±è´¥
+28-May-2020 09:01:12.663 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webåºç¨ç¨åºç®å½[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]çé¨ç½²å·²å¨[89]æ¯«ç§åå®æ
+28-May-2020 09:01:12.663 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory æweb åºç¨ç¨åºé¨ç½²å°ç®å½ [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]
+28-May-2020 09:01:12.718 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webåºç¨ç¨åºç®å½[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]çé¨ç½²å·²å¨[55]æ¯«ç§åå®æ
+28-May-2020 09:01:12.718 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory æweb åºç¨ç¨åºé¨ç½²å°ç®å½ [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\manager]
+28-May-2020 09:01:12.769 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webåºç¨ç¨åºç®å½[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\manager]çé¨ç½²å·²å¨[51]æ¯«ç§åå®æ
+28-May-2020 09:01:12.769 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory æweb åºç¨ç¨åºé¨ç½²å°ç®å½ [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\ROOT]
+28-May-2020 09:01:12.813 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Webåºç¨ç¨åºç®å½[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\ROOT]çé¨ç½²å·²å¨[44]æ¯«ç§åå®æ
+28-May-2020 09:01:12.816 信息 [main] org.apache.coyote.AbstractProtocol.start å¼å§åè®®å¤çå¥æ["http-nio-8080"]
+28-May-2020 09:01:12.821 信息 [main] org.apache.catalina.startup.Catalina.start [518]æ¯«ç§åæå¡å¨å¯å¨
+28-May-2020 09:05:21.016 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log Server.????????��??????: Apache Tomcat/9.0.x-dev
+28-May-2020 09:05:21.020 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log ????????��??????:        unknown
+28-May-2020 09:05:21.020 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log ????????��????????��(:     9.0.x
+28-May-2020 09:05:21.020 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log ????????????????���:      Windows 7
+28-May-2020 09:05:21.020 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log OS.??????:           6.1
+28-May-2020 09:05:21.020 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log ??????:              amd64
+28-May-2020 09:05:21.020 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log Java ?????????��??:     D:\java\jre
+28-May-2020 09:05:21.020 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log Java��??????????????:    1.8.0_221-b11
+28-May-2020 09:05:21.020 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.?????????:        Oracle Corporation
+28-May-2020 09:05:21.021 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     D:\ysstech\workspace_tomcat\code\catalina-home
+28-May-2020 09:05:21.021 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     D:\ysstech\workspace_tomcat\code\catalina-home
+28-May-2020 09:05:21.022 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log ?????�訨???????��???-Dcatalina.home=catalina-home
+28-May-2020 09:05:21.022 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log ?????�訨???????��???-Dcatalina.base=catalina-home
+28-May-2020 09:05:21.022 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log ?????�訨???????��???-Djava.endorsed.dirs=catalina-home/endorsed
+28-May-2020 09:05:21.022 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log ?????�訨???????��???-Djava.io.tmpdir=catalina-home/temp
+28-May-2020 09:05:21.022 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log ?????�訨???????��???-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-May-2020 09:05:21.022 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log ?????�訨???????��???-Djava.util.logging.config.file=catalina-home/conf/logging.properties
+28-May-2020 09:05:21.023 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log ?????�訨???????��???-Dfile.encoding=GBK
+28-May-2020 09:05:21.023 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log ?????�訨???????��???-javaagent:D:\ysstech\soft\idea\IntelliJ IDEA 2019.1.3\lib\idea_rt.jar=61677:D:\ysstech\soft\idea\IntelliJ IDEA 2019.1.3\bin
+28-May-2020 09:05:21.023 ��Ϣ [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent ??��java.library.path:[D:\java\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\ysstech\soft\oracle\oracle11\product\11.2.0\dbhome_1\bin;D:\ysstech\soft\oracle\oracle\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\UCRT\;C:\Program Files\Intel\UCRT\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Python\Python36-32\Scripts;D:\Python\xuexi\chromedriver.exe;D:\ysstech\soft\git\bin;C:\Program Files\Git\cmd;D:\ysstech\soft\redis\;D:\ysstech\soft\maven\apache-maven-3.6.1\bin;D:\ysstech\soft\vscode\Microsoft VS Codebin;D:\ysstech\soft\mysql\mysql-5.7.22-winx64\bin;D:\ysstech\soft\vscode\Microsoft VS Code\bin;D:\ysstech\soft\erlang\erl10.4\bin;D:\ysstech\soft\gradle\gradle-5.6.3\bin;D:\ysstech\soft\groovy\groovy-2.5.6\bin;D:\java\bin;D:\ysstech\soft\go\go\bin;.]???????????��??????APR???Apache Tomcat????????????��????????��????��?????��?????????��?��???????????�쨨??
+28-May-2020 09:05:21.291 ��Ϣ [main] org.apache.coyote.AbstractProtocol.init ????��???????��???��??????�� ["http-nio-8080"]
+28-May-2020 09:05:21.361 ��Ϣ [main] org.apache.catalina.startup.Catalina.load ????????��??��[490]????��????????��????
+28-May-2020 09:05:21.383 ��Ϣ [main] org.apache.catalina.core.StandardService.startInternal ?????��?????��??????[Catalina]
+28-May-2020 09:05:21.383 ��Ϣ [main] org.apache.catalina.core.StandardEngine.startInternal ?????��?????�� Servlet ?????????[Apache Tomcat/9.0.x-dev]
+28-May-2020 09:05:21.391 ��Ϣ [main] org.apache.catalina.startup.HostConfig.deployDirectory ???web ?????��?��????��?��?????��?????? [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]
+28-May-2020 09:05:21.630 ��Ϣ [main] org.apache.catalina.startup.HostConfig.deployDirectory Web?????��?��??????????[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\docs]???��?��????��???��[238]????��??????????
+28-May-2020 09:05:21.630 ��Ϣ [main] org.apache.catalina.startup.HostConfig.deployDirectory ???web ?????��?��????��?��?????��?????? [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]
+28-May-2020 09:05:21.705 ���� [main] org.apache.catalina.core.StandardContext.startInternal ??????????��????listeners?????��?�����?????????��?��???????????????????????????????��????????????
+28-May-2020 09:05:21.705 ���� [main] org.apache.catalina.core.StandardContext.startInternal ??��????????????��??��?????Context[/examples]?????��?�����??
+28-May-2020 09:05:21.711 ��Ϣ [main] org.apache.catalina.startup.HostConfig.deployDirectory Web?????��?��??????????[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\examples]???��?��????��???��[81]????��??????????
+28-May-2020 09:05:21.712 ��Ϣ [main] org.apache.catalina.startup.HostConfig.deployDirectory ???web ?????��?��????��?��?????��?????? [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]
+28-May-2020 09:05:21.761 ��Ϣ [main] org.apache.catalina.startup.HostConfig.deployDirectory Web?????��?��??????????[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\host-manager]???��?��????��???��[49]????��??????????
+28-May-2020 09:05:21.762 ��Ϣ [main] org.apache.catalina.startup.HostConfig.deployDirectory ???web ?????��?��????��?��?????��?????? [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\manager]
+28-May-2020 09:05:21.814 ��Ϣ [main] org.apache.catalina.startup.HostConfig.deployDirectory Web?????��?��??????????[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\manager]???��?��????��???��[52]????��??????????
+28-May-2020 09:05:21.814 ��Ϣ [main] org.apache.catalina.startup.HostConfig.deployDirectory ???web ?????��?��????��?��?????��?????? [D:\ysstech\workspace_tomcat\code\catalina-home\webapps\ROOT]
+28-May-2020 09:05:21.858 ��Ϣ [main] org.apache.catalina.startup.HostConfig.deployDirectory Web?????��?��??????????[D:\ysstech\workspace_tomcat\code\catalina-home\webapps\ROOT]???��?��????��???��[43]????��??????????
+28-May-2020 09:05:21.861 ��Ϣ [main] org.apache.coyote.AbstractProtocol.start ????��????��???��??????????["http-nio-8080"]
+28-May-2020 09:05:21.868 ��Ϣ [main] org.apache.catalina.startup.Catalina.start [505]????��????????????��?????��
