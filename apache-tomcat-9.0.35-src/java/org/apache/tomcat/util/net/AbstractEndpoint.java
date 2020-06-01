@@ -178,6 +178,7 @@ public abstract class AbstractEndpoint<S,U> {
 
     /**
      * Thread used to accept new connections and pass them to worker threads.
+     * 当前线程用于接收新连接,并将其传递给工作线程
      */
     protected Acceptor<U> acceptor;
 

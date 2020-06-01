@@ -129,7 +129,7 @@ public class Catalina {
     /**
      * Prevent duplicate loads.
      */
-    protected boolean loaded = false;
+    protected volatile boolean loaded = false;
 
 
     // ----------------------------------------------------------- Constructors
@@ -536,9 +536,10 @@ public class Catalina {
 
     /**
      * Start a new server instance.
+     * 启动一个新的Server实例
      */
     public void load() {
-
+        //首先防止重复加载
         if (loaded) {
             return;
         }
@@ -750,6 +751,7 @@ public class Catalina {
 
     protected void initNaming() {
         // Setting additional variables
+        // 设置一些额外的值
         if (!useNaming) {
             log.info(sm.getString("catalina.noNatming"));
             System.setProperty("catalina.useNaming", "false");

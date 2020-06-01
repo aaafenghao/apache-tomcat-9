@@ -511,7 +511,7 @@ public class StandardService extends LifecycleMBeanBase implements Service {
     protected void initInternal() throws LifecycleException {
 
         super.initInternal();
-
+        // 有一个容器进行请求的处理
         if (engine != null) {
             engine.init();
         }
@@ -527,6 +527,7 @@ public class StandardService extends LifecycleMBeanBase implements Service {
         // Initialize mapper listener
         mapperListener.init();
 
+        //多个Connector 进行监听请求
         // Initialize our defined Connectors
         synchronized (connectorsLock) {
             for (Connector connector : connectors) {

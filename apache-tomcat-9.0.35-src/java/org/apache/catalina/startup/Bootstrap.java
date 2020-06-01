@@ -62,10 +62,14 @@ public final class Bootstrap {
     private static final Pattern PATH_PATTERN = Pattern.compile("(\"[^\"]*\")|(([^,])*)");
 
     static {
+        //做一些环境变量的设置
+        //从命令行中获取
+
         // Will always be non-null
         String userDir = System.getProperty("user.dir");
 
         // Home first
+        //Tomcat产品的安装路径
         String home = System.getProperty(Globals.CATALINA_HOME_PROP);
         File homeFile = null;
 
@@ -102,11 +106,11 @@ public final class Bootstrap {
                 homeFile = f.getAbsoluteFile();
             }
         }
-
+        //catalinaHomeFile
         catalinaHomeFile = homeFile;
         System.setProperty(
                 Globals.CATALINA_HOME_PROP, catalinaHomeFile.getPath());
-
+        //catalinaBaseFile
         // Then base
         String base = System.getProperty(Globals.CATALINA_BASE_PROP);
         if (base == null) {
@@ -248,9 +252,9 @@ public final class Bootstrap {
      * @throws Exception Fatal initialization error
      */
     public void init() throws Exception {
-
+        //初始化一些类加载器
         initClassLoaders();
-
+        //设置当前线程上下文类加载器
         Thread.currentThread().setContextClassLoader(catalinaLoader);
 
         SecurityClassLoad.securityClassLoad(catalinaLoader);
@@ -258,9 +262,11 @@ public final class Bootstrap {
         // Load our startup class and call its process() method
         if (log.isDebugEnabled())
             log.debug("Loading startup class");
+        //创建启动类实例
         Class<?> startupClass = catalinaLoader.loadClass("org.apache.catalina.startup.Catalina");
         Object startupInstance = startupClass.getConstructor().newInstance();
 
+        //将sharedLoader设置成当前类的父加载器
         // Set the shared extensions class loader
         if (log.isDebugEnabled())
             log.debug("Setting startup class properties");
@@ -300,6 +306,7 @@ public final class Bootstrap {
         if (log.isDebugEnabled()) {
             log.debug("Calling startup class " + method);
         }
+        //class org.apache.catalina.startup.Catalina--load 方法
         method.invoke(catalinaDaemon, param);
     }
 
@@ -336,10 +343,13 @@ public final class Bootstrap {
      */
     public void start() throws Exception {
         if (catalinaDaemon == null) {
+            //一般不会执行,因为已经执行过了
+            //可能是为了保证守护线程必须有
             init();
         }
 
         Method method = catalinaDaemon.getClass().getMethod("start", (Class [])null);
+        //class org.apache.catalina.startup.Catalina -- start 方法的执行
         method.invoke(catalinaDaemon, (Object [])null);
     }
 
@@ -440,6 +450,7 @@ public final class Bootstrap {
                 // Don't set daemon until init() has completed
                 Bootstrap bootstrap = new Bootstrap();
                 try {
+                    //设置类加载器相关
                     bootstrap.init();
                 } catch (Throwable t) {
                     handleThrowable(t);
@@ -463,7 +474,11 @@ public final class Bootstrap {
 
             if (command.equals("startd")) {
                 args[args.length - 1] = "start";
+                //先执行Catalina的load
+                //一些类的初始化信息
                 daemon.load(args);
+                //Catalina的start
+                //调用相关组件的start方法
                 daemon.start();
             } else if (command.equals("stopd")) {
                 args[args.length - 1] = "stop";

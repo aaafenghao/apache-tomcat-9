@@ -166,6 +166,8 @@ public class NioEndpoint extends AbstractJsseEndpoint<NioChannel,SocketChannel> 
 
     /**
      * The socket poller.
+     *
+     * socket 轮询
      */
     private Poller poller = null;
 
