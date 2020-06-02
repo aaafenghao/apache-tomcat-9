@@ -414,14 +414,14 @@ public class StandardService extends LifecycleMBeanBase implements Service {
         if(log.isInfoEnabled())
             log.info(sm.getString("standardService.start.name", this.name));
         setState(LifecycleState.STARTING);
-
+        //-----------------------first--------------------------//
         // Start our defined Container first
         if (engine != null) {
             synchronized (engine) {
                 engine.start();
             }
         }
-
+        //----------------------second----------------------------//
         synchronized (executors) {
             for (Executor executor: executors) {
                 executor.start();
@@ -429,7 +429,7 @@ public class StandardService extends LifecycleMBeanBase implements Service {
         }
 
         mapperListener.start();
-
+        //-------------------third-------------------------------//
         // Start our defined Connectors second
         synchronized (connectorsLock) {
             for (Connector connector: connectors) {

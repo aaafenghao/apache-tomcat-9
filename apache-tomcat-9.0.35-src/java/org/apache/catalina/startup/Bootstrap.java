@@ -143,9 +143,12 @@ public final class Bootstrap {
 
     // -------------------------------------------------------- Private Methods
 
-
+    /**
+     * 打破了传统的双亲委派机制
+     */
     private void initClassLoaders() {
         try {
+            //没有父加载器
             commonLoader = createClassLoader("common", null);
             if (commonLoader == null) {
                 // no config file, default to this loader - we might be in a 'single' env.

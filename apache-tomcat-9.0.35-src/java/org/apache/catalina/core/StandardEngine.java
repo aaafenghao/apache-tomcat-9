@@ -259,6 +259,7 @@ public class StandardEngine extends ContainerBase implements Engine {
         }
 
         // Standard container startup
+        // 标准容器启动
         super.startInternal();
     }
 

@@ -994,7 +994,7 @@ public class Connector extends LifecycleMBeanBase  {
             throw new LifecycleException(
                     sm.getString("coyoteConnector.protocolHandlerInstantiationFailed"));
         }
-
+        // 初始化适配器
         // Initialize adapter
         adapter = new CoyoteAdapter(this);
         protocolHandler.setAdapter(adapter);

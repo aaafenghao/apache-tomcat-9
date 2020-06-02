@@ -1151,6 +1151,7 @@ public abstract class AbstractEndpoint<S,U> {
 
 
     public final void init() throws Exception {
+        //是否需要绑定端口在初始化的时候
         if (bindOnInit) {
             bindWithCleanup();
             bindState = BindState.BOUND_ON_INIT;

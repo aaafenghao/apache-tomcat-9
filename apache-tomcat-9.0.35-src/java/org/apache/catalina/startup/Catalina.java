@@ -555,7 +555,7 @@ public class Catalina {
         // Set configuration source
         ConfigFileLoader.setSource(new CatalinaBaseConfigurationSource(Bootstrap.getCatalinaBaseFile(), getConfigFile()));
         File file = configFile();
-
+        //解析Server.xml文件
         // Create and execute our Digester
         Digester digester = createStartDigester();
 
@@ -582,6 +582,7 @@ public class Catalina {
 
         // Start the new server
         try {
+            //服务的初始化
             getServer().init();
         } catch (LifecycleException e) {
             if (Boolean.getBoolean("org.apache.catalina.startup.EXIT_ON_INIT_FAILURE")) {
