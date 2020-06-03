@@ -910,7 +910,7 @@ public abstract class ContainerBase extends LifecycleMBeanBase
         }
 
         MultiThrowable multiThrowable = null;
-
+        //等待StandardHost初始化完成
         for (Future<Void> result : results) {
             try {
                 result.get();
@@ -932,7 +932,7 @@ public abstract class ContainerBase extends LifecycleMBeanBase
         if (pipeline instanceof Lifecycle) {
             ((Lifecycle) pipeline).start();
         }
-
+        //STARTING激活HostConfig监听器
         setState(LifecycleState.STARTING);
 
         // Start our thread

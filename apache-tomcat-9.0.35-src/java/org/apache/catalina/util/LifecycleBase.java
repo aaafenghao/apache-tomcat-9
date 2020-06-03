@@ -120,6 +120,7 @@ public abstract class LifecycleBase implements Lifecycle {
     protected void fireLifecycleEvent(String type, Object data) {
         LifecycleEvent event = new LifecycleEvent(this, type, data);
         //LifecycleListener
+        //在StandardHost启动生命周期中会调用HostConfig
         for (LifecycleListener listener : lifecycleListeners) {
             listener.lifecycleEvent(event);
         }
