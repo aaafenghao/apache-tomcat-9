@@ -932,7 +932,8 @@ public abstract class ContainerBase extends LifecycleMBeanBase
         if (pipeline instanceof Lifecycle) {
             ((Lifecycle) pipeline).start();
         }
-        //STARTING激活HostConfig监听器
+        //StandardHost激活HostConfig监听器
+        //在HostConfig中会添加StandardContext,然后启动
         setState(LifecycleState.STARTING);
 
         // Start our thread

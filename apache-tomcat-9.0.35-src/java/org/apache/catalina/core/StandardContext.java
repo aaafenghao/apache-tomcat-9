@@ -4941,7 +4941,7 @@ public class StandardContext extends ContainerBase
             webappLoader.setDelegate(getDelegate());
             setLoader(webappLoader);
         }
-
+        //默认的Cookie信息
         // An explicit cookie processor hasn't been specified; use the default
         if (cookieProcessor == null) {
             cookieProcessor = new Rfc6265CookieProcessor();
@@ -6023,7 +6023,7 @@ public class StandardContext extends ContainerBase
         return preDestroyMethods;
     }
 
-
+    //为工作目录设置上下文属性
     /**
      * Set the appropriate context attribute for our work directory.
      */

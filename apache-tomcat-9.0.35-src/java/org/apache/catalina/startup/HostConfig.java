@@ -1087,6 +1087,7 @@ public class HostConfig implements LifecycleListener {
             if (deployThisXML && xml.exists()) {
                 synchronized (digesterLock) {
                     try {
+                        //解析xml
                         context = (Context) digester.parse(xml);
                     } catch (Exception e) {
                         log.error(sm.getString(
@@ -1130,6 +1131,7 @@ public class HostConfig implements LifecycleListener {
             context.setPath(cn.getPath());
             context.setWebappVersion(cn.getVersion());
             context.setDocBase(cn.getBaseName());
+            //将StandardContext添加进去,然后进行启动
             host.addChild(context);
         } catch (Throwable t) {
             ExceptionUtils.handleThrowable(t);

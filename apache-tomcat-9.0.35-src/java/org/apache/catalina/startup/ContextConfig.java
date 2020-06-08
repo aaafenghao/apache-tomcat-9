@@ -1172,6 +1172,7 @@ public class ContextConfig implements LifecycleListener {
             webXml.merge(tomcatWebXml);
             webXml.merge(defaults);
             convertJsps(webXml);
+            //进入下一级StandardWrapper
             configureContext(webXml);
         }
 
@@ -1388,6 +1389,7 @@ public class ContextConfig implements LifecycleListener {
                         servlet.getAsyncSupported().booleanValue());
             }
             wrapper.setOverridable(servlet.isOverridable());
+            //下一级StandardWrapper入口
             context.addChild(wrapper);
         }
         for (Entry<String, String> entry :
